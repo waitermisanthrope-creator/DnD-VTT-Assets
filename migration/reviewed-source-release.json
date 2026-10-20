@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tag": "makehuman-cc0-skins-v1",
+  "license": "CC0-1.0",
+  "sourceCommit": "eb745b69c79799399fbd64474dcacd5a0d82f2d0",
+  "author": "Data Collection AB; Joel Palmius; Jonas Hauquier",
+  "files": [
+    {
+      "path": "app/assets/3d/makehuman/skins/young_caucasian_female/young_lightskinned_female_diffuse.png",
+      "bytes": 4391156,
+      "sha256": "b2a6ac8cd4f9febdb447368e29c76cd68410bb66e46d9dcfa2d5f75126eea8fc",
+      "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT/eb745b69c79799399fbd64474dcacd5a0d82f2d0/app/assets/3d/makehuman/skins/young_caucasian_female/young_lightskinned_female_diffuse.png"
+    },
+    {
+      "path": "app/assets/3d/makehuman/skins/young_caucasian_male/young_lightskinned_male_diffuse.png",
+      "bytes": 3693828,
+      "sha256": "862a26e335e958b70534cb5f0d7c47ef30ab148a56c42b3e9da969cf76f12963",
+      "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT/eb745b69c79799399fbd64474dcacd5a0d82f2d0/app/assets/3d/makehuman/skins/young_caucasian_male/young_lightskinned_male_diffuse.png"
+    }
+  ]
+}
