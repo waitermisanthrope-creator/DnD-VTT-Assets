@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "author": "DnD-VTT contributors",
+  "license": "CC0-1.0",
+  "platform": "any",
+  "unityVersion": "*",
+  "dependencies": [],
+  "format": "json",
+  "id": "demo.model.markers",
+  "name": "Геометрические маркеры",
+  "type": "model",
+  "description": "Оригинальные простые объекты для размещения на карте; без бинарных моделей.",
+  "objects": [
+    {
+      "id": "demo.model.markers.beacon",
+      "name": "Маяк",
+      "primitive": "Cylinder",
+      "color": "#E4A94FFF",
+      "scale": [
+        0.5,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "id": "demo.model.markers.crate",
+      "name": "Ящик",
+      "primitive": "Cube",
+      "color": "#786047FF",
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  ]
+}

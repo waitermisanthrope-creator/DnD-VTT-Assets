@@ -1,5 +1,40 @@
 {
   "schemaVersion": 1,
   "catalogId": "dnd-vtt-assets",
-  "packs": []
+  "packs": [
+    {
+      "schemaVersion": 1,
+      "version": "1.0.0",
+      "author": "DnD-VTT contributors",
+      "license": "CC0-1.0",
+      "platform": "any",
+      "unityVersion": "*",
+      "dependencies": [],
+      "format": "json",
+      "id": "demo.model.markers",
+      "name": "Геометрические маркеры",
+      "type": "model",
+      "description": "Оригинальные простые объекты для размещения на карте; без бинарных моделей.",
+      "bytes": 877,
+      "sha256": "517587634cfdfd855dac9dba15720acd935f0cd807be28131d28275ee2f39a6b",
+      "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/demo.model.markers.json"
+    },
+    {
+      "schemaVersion": 1,
+      "version": "1.0.0",
+      "author": "DnD-VTT contributors",
+      "license": "CC0-1.0",
+      "platform": "any",
+      "unityVersion": "*",
+      "dependencies": [],
+      "format": "json",
+      "id": "demo.appearance.amber",
+      "name": "Янтарное оформление карты",
+      "type": "appearance",
+      "description": "Оригинальные однотонные материалы пола и стен; применяется к карте.",
+      "bytes": 722,
+      "sha256": "11327f8fa8fcd50563c49e5c5d90ee605c3d12130c7ca1f08bd2a94716e0c530",
+      "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/demo.appearance.amber.json"
+    }
+  ]
 }

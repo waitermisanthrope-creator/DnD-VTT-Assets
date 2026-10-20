@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "eb745b69c79799399fbd64474dcacd5a0d82f2d0",
+  "files": [
+    {
+      "source": "app/assets/3d/makehuman/LICENSE.ASSETS.md",
+      "destination": "sources/app/assets/3d/makehuman/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "license": "CC0-1.0",
+      "author": "Data Collection AB; Joel Palmius; Jonas Hauquier",
+      "role": "license/provenance/material definitions; referenced textures not migrated"
+    },
+    {
+      "source": "app/assets/3d/makehuman/README.md",
+      "destination": "sources/app/assets/3d/makehuman/README.md",
+      "bytes": 1510,
+      "sha256": "bef0f12958ac0a73de8c1dd2fdc69b6a0a0eb66dc5e6f2a0016387bb62a4fa22",
+      "license": "CC0-1.0",
+      "author": "Data Collection AB; Joel Palmius; Jonas Hauquier",
+      "role": "license/provenance/material definitions; referenced textures not migrated"
+    },
+    {
+      "source": "app/assets/3d/makehuman/skins/young_caucasian_female/young_caucasian_female.mhmat",
+      "destination": "sources/app/assets/3d/makehuman/skins/young_caucasian_female/young_caucasian_female.mhmat",
+      "bytes": 1464,
+      "sha256": "0bdea7786201f0b1132a24088336a97496ccdc54e9984db65d253a6a6d66f24f",
+      "license": "CC0-1.0",
+      "author": "Data Collection AB; Joel Palmius; Jonas Hauquier",
+      "role": "license/provenance/material definitions; referenced textures not migrated"
+    },
+    {
+      "source": "app/assets/3d/makehuman/skins/young_caucasian_male/young_caucasian_male.mhmat",
+      "destination": "sources/app/assets/3d/makehuman/skins/young_caucasian_male/young_caucasian_male.mhmat",
+      "bytes": 1462,
+      "sha256": "6eda60b07ff2afbde078a2535ef3913593d84e9de92b2eb76c30f396a181fe2e",
+      "license": "CC0-1.0",
+      "author": "Data Collection AB; Joel Palmius; Jonas Hauquier",
+      "role": "license/provenance/material definitions; referenced textures not migrated"
+    }
+  ],
+  "originalsRemoved": false
+}

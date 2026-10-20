@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "author": "DnD-VTT contributors",
+  "license": "CC0-1.0",
+  "platform": "any",
+  "unityVersion": "*",
+  "dependencies": [],
+  "format": "json",
+  "id": "demo.appearance.amber",
+  "name": "Янтарное оформление карты",
+  "type": "appearance",
+  "description": "Оригинальные однотонные материалы пола и стен; применяется к карте.",
+  "surfaces": [
+    {
+      "id": "demo.appearance.amber.floor",
+      "name": "Янтарный пол",
+      "color": "#A46F32FF"
+    },
+    {
+      "id": "demo.appearance.amber.wall",
+      "name": "Синяя стена",
+      "color": "#31455FFF"
+    }
+  ]
+}
