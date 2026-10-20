@@ -11,9 +11,12 @@ This public repository stores **metadata only**. Heavy Unity AssetBundles / Addr
 5. Upload immutable release assets; record SHA-256, exact byte count, HTTPS download URLs and dependency IDs in the catalog.
 6. Client selects the matching platform, verifies bytes and hash, stages the download and activates only after compatibility checks.
 
-## Current status
+## Current status — 2026-10-20
 
-- Catalog is empty; no bundles or releases have been published.
-- This is a design contract, not a claim that Unity already installs AssetBundles or Addressables.
-- The existing Unity content manager prototype downloads JSON only. Implementing bundle installation, asset registry and cross-platform builds is future work.
-- Avoid committing large binaries to Git history, executable mods, personal data or secrets.
+- Live catalog publishes two small original CC0 JSON packages: primitive marker objects and map surface colors. These are declarative data, not AssetBundles.
+- Source Release `makehuman-cc0-skins-v1` is published: 8,091,253-byte ZIP, SHA-256 `6e20613c2288034f618e63ed2a259cb118e8840577ea049abcfa9891f54c1d3d`. All six unique original files are byte-verified; original license/author metadata is retained. This archive is source-only and is not advertised for runtime installation.
+- Unity's experimental branch implements verified streaming downloads, persistent installation, race creation integration and an object/material library. Pure C# lifecycle and character persistence tests pass; native/device verification remains separate.
+- Trusted Editor builder generates script-free demo prefabs and platform-specific manifests for Android and Windows. Binary AssetBundles are not yet built or published; never advertise them as tested.
+- Runtime schema: `schemas/catalog-entry-v1.schema.json`. Heavy bundles must go to immutable Release assets after trusted build, size/hash/platform/Unity checks and device QA.
+- No original game file has been removed. Most legacy asset groups still need individual license/dependency review.
+- Never commit large binaries, private submissions, personal data, saves, keys or executable mods to this repository.
