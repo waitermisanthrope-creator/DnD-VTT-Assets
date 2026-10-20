@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.appearance.map-surfaces",
+  "version": "1.0.0",
+  "type": "appearance",
+  "surfaces": [
+    {
+      "id": "dnd.appearance.map-surfaces.floor_ceramic_tile_dark",
+      "name": "floor_ceramic_tile_dark",
+      "legacyKey": "floor_ceramic_tile_dark",
+      "color": "#bf1f89ff",
+      "alternateColor": "#a70771ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_ceramic_tile_light",
+      "name": "floor_ceramic_tile_light",
+      "legacyKey": "floor_ceramic_tile_light",
+      "color": "#94b287ff",
+      "alternateColor": "#7c9a6fff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_checker_tile",
+      "name": "floor_checker_tile",
+      "legacyKey": "floor_checker_tile",
+      "color": "#5d7ee2ff",
+      "alternateColor": "#4566caff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_cobblestone",
+      "name": "floor_cobblestone",
+      "legacyKey": "floor_cobblestone",
+      "color": "#99e159ff",
+      "alternateColor": "#81c941ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_earth",
+      "name": "floor_earth",
+      "legacyKey": "floor_earth",
+      "color": "#a053ecff",
+      "alternateColor": "#883bd4ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_grass",
+      "name": "floor_grass",
+      "legacyKey": "floor_grass",
+      "color": "#3596c1ff",
+      "alternateColor": "#1d7ea9ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_hex_tile",
+      "name": "floor_hex_tile",
+      "legacyKey": "floor_hex_tile",
+      "color": "#cc5728ff",
+      "alternateColor": "#b43f10ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_marble_dark",
+      "name": "floor_marble_dark",
+      "legacyKey": "floor_marble_dark",
+      "color": "#5abdabff",
+      "alternateColor": "#42a593ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_marble_light",
+      "name": "floor_marble_light",
+      "legacyKey": "floor_marble_light",
+      "color": "#5795e2ff",
+      "alternateColor": "#3f7dcaff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_parquet_herringbone",
+      "name": "floor_parquet_herringbone",
+      "legacyKey": "floor_parquet_herringbone",
+      "color": "#a452b6ff",
+      "alternateColor": "#8c3a9eff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_rug_blue",
+      "name": "floor_rug_blue",
+      "legacyKey": "floor_rug_blue",
+      "color": "#fcaa29ff",
+      "alternateColor": "#e49211ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_rug_green",
+      "name": "floor_rug_green",
+      "legacyKey": "floor_rug_green",
+      "color": "#a770e5ff",
+      "alternateColor": "#8f58cdff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_rug_red",
+      "name": "floor_rug_red",
+      "legacyKey": "floor_rug_red",
+      "color": "#47e6ebff",
+      "alternateColor": "#2fced3ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_stone_tile_dark",
+      "name": "floor_stone_tile_dark",
+      "legacyKey": "floor_stone_tile_dark",
+      "color": "#cda63dff",
+      "alternateColor": "#b58e25ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_stone_tile_light",
+      "name": "floor_stone_tile_light",
+      "legacyKey": "floor_stone_tile_light",
+      "color": "#2adcd2ff",
+      "alternateColor": "#12c4baff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_tatami",
+      "name": "floor_tatami",
+      "legacyKey": "floor_tatami",
+      "color": "#686a04ff",
+      "alternateColor": "#505200ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_wood_dark",
+      "name": "floor_wood_dark",
+      "legacyKey": "floor_wood_dark",
+      "color": "#50db95ff",
+      "alternateColor": "#38c37dff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.floor_wood_light",
+      "name": "floor_wood_light",
+      "legacyKey": "floor_wood_light",
+      "color": "#8b0934ff",
+      "alternateColor": "#73001cff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_brick_red",
+      "name": "wall_brick_red",
+      "legacyKey": "wall_brick_red",
+      "color": "#f82bb9ff",
+      "alternateColor": "#e013a1ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_concrete",
+      "name": "wall_concrete",
+      "legacyKey": "wall_concrete",
+      "color": "#b3fe45ff",
+      "alternateColor": "#9be62dff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_half_timber",
+      "name": "wall_half_timber",
+      "legacyKey": "wall_half_timber",
+      "color": "#eb88b3ff",
+      "alternateColor": "#d3709bff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_marble_dark",
+      "name": "wall_marble_dark",
+      "legacyKey": "wall_marble_dark",
+      "color": "#290ba1ff",
+      "alternateColor": "#110089ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_marble_light",
+      "name": "wall_marble_light",
+      "legacyKey": "wall_marble_light",
+      "color": "#2dd7d1ff",
+      "alternateColor": "#15bfb9ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_moss_stone",
+      "name": "wall_moss_stone",
+      "legacyKey": "wall_moss_stone",
+      "color": "#d22584ff",
+      "alternateColor": "#ba0d6cff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_old_plaster",
+      "name": "wall_old_plaster",
+      "legacyKey": "wall_old_plaster",
+      "color": "#e39601ff",
+      "alternateColor": "#cb7e00ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_plaster_dark",
+      "name": "wall_plaster_dark",
+      "legacyKey": "wall_plaster_dark",
+      "color": "#c4c4d9ff",
+      "alternateColor": "#acacc1ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_plaster_light",
+      "name": "wall_plaster_light",
+      "legacyKey": "wall_plaster_light",
+      "color": "#eb13baff",
+      "alternateColor": "#d300a2ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_plaster_panel",
+      "name": "wall_plaster_panel",
+      "legacyKey": "wall_plaster_panel",
+      "color": "#a22443ff",
+      "alternateColor": "#8a0c2bff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_slate",
+      "name": "wall_slate",
+      "legacyKey": "wall_slate",
+      "color": "#91dd11ff",
+      "alternateColor": "#79c500ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_stone_dark",
+      "name": "wall_stone_dark",
+      "legacyKey": "wall_stone_dark",
+      "color": "#76552eff",
+      "alternateColor": "#5e3d16ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_stone_light",
+      "name": "wall_stone_light",
+      "legacyKey": "wall_stone_light",
+      "color": "#c676d6ff",
+      "alternateColor": "#ae5ebeff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_stone_masonry",
+      "name": "wall_stone_masonry",
+      "legacyKey": "wall_stone_masonry",
+      "color": "#29e44fff",
+      "alternateColor": "#11cc37ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_wallpaper",
+      "name": "wall_wallpaper",
+      "legacyKey": "wall_wallpaper",
+      "color": "#703e53ff",
+      "alternateColor": "#58263bff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_white_plaster",
+      "name": "wall_white_plaster",
+      "legacyKey": "wall_white_plaster",
+      "color": "#0cc43eff",
+      "alternateColor": "#00ac26ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_wood_dark",
+      "name": "wall_wood_dark",
+      "legacyKey": "wall_wood_dark",
+      "color": "#7324edff",
+      "alternateColor": "#5b0cd5ff",
+      "pattern": "checker",
+      "textureSize": 32
+    },
+    {
+      "id": "dnd.appearance.map-surfaces.wall_wood_light",
+      "name": "wall_wood_light",
+      "legacyKey": "wall_wood_light",
+      "color": "#b2331bff",
+      "alternateColor": "#9a1b03ff",
+      "pattern": "checker",
+      "textureSize": 32
+    }
+  ]
+}
