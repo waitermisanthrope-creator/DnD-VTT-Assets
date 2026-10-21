@@ -1,0 +1,448 @@
+{
+  "author": "waitermisanthrope-creator",
+  "permission": "Owner confirms all wallpapers and dice images were personally generated using AI, predominantly Gemini/ChatGPT, and authorizes publication through DnD-VTT workshop. No separate reuse license or CC0 dedication asserted.",
+  "sourceCommit": "d4f62bdefa6f5d3020a28ce2f7650375ebe289ad",
+  "files": [
+    {
+      "path": "wallpapers/1.png",
+      "sha256": "8469241f4d37a639ca6d1e9180e9f7e346544649b9ad0bca9ef89bb981f1453c",
+      "id": "dnd.appearance.wallpaper.1",
+      "name": "Обои 1",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/10.png",
+      "sha256": "08cfe1090baf3466ea0e6de010988260e76d7a1d5aff3ffb6ae45c08ba529d5f",
+      "id": "dnd.appearance.wallpaper.10",
+      "name": "Обои 10",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/11.png",
+      "sha256": "4c0515de5b48c54cd781cd3997ce9b9f572ae817c92703ffd5dcd79328808a88",
+      "id": "dnd.appearance.wallpaper.11",
+      "name": "Обои 11",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/12.png",
+      "sha256": "7928ea85c67e085f0e02768e6afca98443673170c1cc99992b50965f4817eb9f",
+      "id": "dnd.appearance.wallpaper.12",
+      "name": "Обои 12",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/13.png",
+      "sha256": "a68722953de1e794ca987b275b54ee67d760f2dd46baf8f44cb44c49bf6781c8",
+      "id": "dnd.appearance.wallpaper.13",
+      "name": "Обои 13",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/14.png",
+      "sha256": "f783d3eb3626db4ccadc5eb30f1ba5ad25ac8dd11dc0ac824d0d38d60c0b5878",
+      "id": "dnd.appearance.wallpaper.14",
+      "name": "Обои 14",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/15.png",
+      "sha256": "0358e2b66114a1d51f4bb20b03ae7ddce528560c536b81a30b9d4652338a4e49",
+      "id": "dnd.appearance.wallpaper.15",
+      "name": "Обои 15",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/16.png",
+      "sha256": "100577fa912800411ab8117605112757c3468fa862eb0989003495c3686d17a5",
+      "id": "dnd.appearance.wallpaper.16",
+      "name": "Обои 16",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/17.png",
+      "sha256": "bd185e51f5dd35a62f83df1098e35a40630f49d787560f5b90848cb396a67b1d",
+      "id": "dnd.appearance.wallpaper.17",
+      "name": "Обои 17",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/18.png",
+      "sha256": "269e707d25e59302f8d3630311fe432b08374bab9ef4919caf3c6fe30362a395",
+      "id": "dnd.appearance.wallpaper.18",
+      "name": "Обои 18",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/19.png",
+      "sha256": "f44157dfaa3541805ea94254e58bc5849468d72f67fa8fc1be0e21dfda0596b8",
+      "id": "dnd.appearance.wallpaper.19",
+      "name": "Обои 19",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/2.png",
+      "sha256": "6afa226101338696eb7499e2d0468a54a637213152c80e0efaf510d0a2644ae6",
+      "id": "dnd.appearance.wallpaper.2",
+      "name": "Обои 2",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/20.png",
+      "sha256": "5e21f31646e2942cb8792a1b032854a5defbe94556c41d0958c2cc6c6cfaed16",
+      "id": "dnd.appearance.wallpaper.20",
+      "name": "Обои 20",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/21.png",
+      "sha256": "27aa545e93db58834388a0a16d47f06727b6f92130e82987015d726a2458c0ab",
+      "id": "dnd.appearance.wallpaper.21",
+      "name": "Обои 21",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/22.png",
+      "sha256": "f6d96a3578eca0aff3a8369f0d38737c3f68b596ae633605665d9c4b375cc0ed",
+      "id": "dnd.appearance.wallpaper.22",
+      "name": "Обои 22",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/23.png",
+      "sha256": "6d99198fdf3aec7a75a3fad42d966bf4112f2fe75a655318c99c5ae117d18868",
+      "id": "dnd.appearance.wallpaper.23",
+      "name": "Обои 23",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/24.png",
+      "sha256": "ef8dd3f1e0da6808a2e4e8bd211801c50e81a1f62d170f6e66f6e8364829b2d3",
+      "id": "dnd.appearance.wallpaper.24",
+      "name": "Обои 24",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/25.png",
+      "sha256": "f4d3fafb823378ad51a301cfc837d61bb03fd9d325ac3b531e430fdc249560f5",
+      "id": "dnd.appearance.wallpaper.25",
+      "name": "Обои 25",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/26.png",
+      "sha256": "25b0be0437a9abe4cb07e7f8c59bf2ae7c9729c78d6f63ac28a6503a4c1d1c86",
+      "id": "dnd.appearance.wallpaper.26",
+      "name": "Обои 26",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/27.png",
+      "sha256": "ceccb5a08dd70e5a4655664bba99583b0d48cae9457e2bd21cd69c7b45fb1705",
+      "id": "dnd.appearance.wallpaper.27",
+      "name": "Обои 27",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/28.png",
+      "sha256": "36ffc0dab7e33816686c2685a4b2c1396badd53c3a73f7d7facaaa24f0867397",
+      "id": "dnd.appearance.wallpaper.28",
+      "name": "Обои 28",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/29.png",
+      "sha256": "e4b4db60d591d1e489aab96a58ca72604aed37c0f43bc3f7a67612936e35c82b",
+      "id": "dnd.appearance.wallpaper.29",
+      "name": "Обои 29",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/3.png",
+      "sha256": "0abb868668419d5daa605a3f4326b0c429220a9fee257db572dcc541f81c1001",
+      "id": "dnd.appearance.wallpaper.3",
+      "name": "Обои 3",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/30.png",
+      "sha256": "2196593f889b45a28ec5eb4a92f54ab9221206dcc1b748d879a6db4ecce23389",
+      "id": "dnd.appearance.wallpaper.30",
+      "name": "Обои 30",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/31.svg",
+      "sha256": "bae6e0eb2dceacce706d963279abe2e49c12f647d2e0cea1f6865742b1ae0dd0",
+      "id": "dnd.appearance.wallpaper.31",
+      "name": "Обои 31",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/32.svg",
+      "sha256": "8d90f47b5e056de8e19c57b7c47120bc87c7be13ac4923003bbee387b4fbfd8d",
+      "id": "dnd.appearance.wallpaper.32",
+      "name": "Обои 32",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/4.png",
+      "sha256": "112d9e2fdb4e94d982e2d20ea7a8bb57f9bd309245badfc2cd09d040ee79ed35",
+      "id": "dnd.appearance.wallpaper.4",
+      "name": "Обои 4",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/5.png",
+      "sha256": "da0d1929b957490d0186e7bd9e6edce45c14f37078dcfaf78280b724ed35a9d5",
+      "id": "dnd.appearance.wallpaper.5",
+      "name": "Обои 5",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/6.png",
+      "sha256": "aed583259239e24e4503ecba03f6b0ab1921822b96909caced42b804e5464d3c",
+      "id": "dnd.appearance.wallpaper.6",
+      "name": "Обои 6",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/7.png",
+      "sha256": "6af18149f1debcb20b9b8e4f9423f962ad5e3fbc4e18f6ba9ee0f7560793e07a",
+      "id": "dnd.appearance.wallpaper.7",
+      "name": "Обои 7",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/8.png",
+      "sha256": "5af61303a9cac5807c0cd979e94b428fb3d2c83580bee70d17a78892d1ce5a95",
+      "id": "dnd.appearance.wallpaper.8",
+      "name": "Обои 8",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "wallpapers/9.png",
+      "sha256": "34f7d7049a18d8e8efaefbf15b31ee2262aa639bfcc88854510322e042e545a4",
+      "id": "dnd.appearance.wallpaper.9",
+      "name": "Обои 9",
+      "kind": "wallpaper"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_08_07 PM.png",
+      "sha256": "3c6c962f82b7746a6fc37a09106c798fe9b2c5bffd987e23a86f99784013849f",
+      "id": "dnd.appearance.icon.01",
+      "name": "Иконка дайса 01",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_08_30 PM.png",
+      "sha256": "b1df95d0f9a60792d3ab88bbeefe886dd0448f4d4e512e52217dbef005744682",
+      "id": "dnd.appearance.icon.02",
+      "name": "Иконка дайса 02",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_13_27 PM.png",
+      "sha256": "fc66873cd3cb438459f4b37aeb64bda8c8ee683945a26069e0608408802e8e34",
+      "id": "dnd.appearance.icon.03",
+      "name": "Иконка дайса 03",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_23_00 PM.png",
+      "sha256": "4524f7d716f4d8c48529f8b28f97971470a65a19dc0497ad1678e1a1e9bf37a4",
+      "id": "dnd.appearance.icon.04",
+      "name": "Иконка дайса 04",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_24_38 PM.png",
+      "sha256": "ebc9dc26b39c79ff00e4fc4203382695c02b790441fda7003aadc2e679ddca52",
+      "id": "dnd.appearance.icon.05",
+      "name": "Иконка дайса 05",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_27_51 PM.png",
+      "sha256": "accf5891e22394627d79ecbc2892f48d758b5154246d46a284918c175cd0df37",
+      "id": "dnd.appearance.icon.06",
+      "name": "Иконка дайса 06",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_35_50 PM.png",
+      "sha256": "34152d9673bf59329bf12419209aa8a2097b7c268e618634c64ee939a0b37c2f",
+      "id": "dnd.appearance.icon.07",
+      "name": "Иконка дайса 07",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_41_40 PM.png",
+      "sha256": "06099144867be54582a54fed8c2e2237e1a94126c413258d765f8a02099299af",
+      "id": "dnd.appearance.icon.08",
+      "name": "Иконка дайса 08",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_49_58 PM.png",
+      "sha256": "72c7ab340146cbf2969c1bc56be5e250e81a2c5492e0e159c71f111f3003d657",
+      "id": "dnd.appearance.icon.09",
+      "name": "Иконка дайса 09",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_58_07 PM.png",
+      "sha256": "f965553f276fe8994fb9bf0abd6f3b96c4a7cadb087cf69174eb30e1f3b3a062",
+      "id": "dnd.appearance.icon.10",
+      "name": "Иконка дайса 10",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_58_18 PM.png",
+      "sha256": "59987d8cb7804b6a1a7fff02f3e719315683d6b6b2738fac87e2b08bc87ad952",
+      "id": "dnd.appearance.icon.11",
+      "name": "Иконка дайса 11",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_58_28 PM.png",
+      "sha256": "ffbf2d9466fc462dc178a6cabeb80fe323c51f167f15771c580cd051f3cb6b6f",
+      "id": "dnd.appearance.icon.12",
+      "name": "Иконка дайса 12",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/ChatGPT Image Sep 30, 2026, 07_58_39 PM.png",
+      "sha256": "bb2ba9fee3cff09bf2b0fa0f8c7082a31eee1405309a1583c3eb8a897ec13824",
+      "id": "dnd.appearance.icon.13",
+      "name": "Иконка дайса 13",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice1.png",
+      "sha256": "16d72f819febac166b5f7af7e5a78696c11d8941011c5ba78888af342d76d46e",
+      "id": "dnd.appearance.icon.14",
+      "name": "Иконка дайса 14",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice10-1.png",
+      "sha256": "b21f246e5be465dbb7ee4717458fef314947e033f96c6df1ef829e071f15ee5a",
+      "id": "dnd.appearance.icon.15",
+      "name": "Иконка дайса 15",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice10.png",
+      "sha256": "b21f246e5be465dbb7ee4717458fef314947e033f96c6df1ef829e071f15ee5a",
+      "id": "dnd.appearance.icon.16",
+      "name": "Иконка дайса 16",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice11.png",
+      "sha256": "eab940ffd9e8f8a9f124840a4d37e9a0b7a99149aa4cfb01be212fa08a3ef8bb",
+      "id": "dnd.appearance.icon.17",
+      "name": "Иконка дайса 17",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice12.png",
+      "sha256": "74b6b008a399dc5d01c11f92abc964f791d78a2676de79cfcae00429fad3ab53",
+      "id": "dnd.appearance.icon.18",
+      "name": "Иконка дайса 18",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice13.png",
+      "sha256": "56e4bab3a04054fcb42b772fa2f08a9c7a0422e310f1abd4debb8fbe57d2d723",
+      "id": "dnd.appearance.icon.19",
+      "name": "Иконка дайса 19",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice15.png",
+      "sha256": "4a51f9d6bab63d3ccdf04756de6a158ae128ca4dffde8c41ca3f44678c6bc411",
+      "id": "dnd.appearance.icon.20",
+      "name": "Иконка дайса 20",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice16.png",
+      "sha256": "29383f639e29f5152823d092f6ceebe367ccf50a4e14414304d3aca2f62dec6d",
+      "id": "dnd.appearance.icon.21",
+      "name": "Иконка дайса 21",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice17.png",
+      "sha256": "beab114e09918caebb6c1f3889107fe8705cc0882bcbe441fe592672af13602c",
+      "id": "dnd.appearance.icon.22",
+      "name": "Иконка дайса 22",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice2.png",
+      "sha256": "584d3d50c2f67d8cfa59506c87d436d1b32133ac0dcb89dcaad9fc692b3006b7",
+      "id": "dnd.appearance.icon.23",
+      "name": "Иконка дайса 23",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice3.png",
+      "sha256": "e975c0f02a3544d017104033d61a3a87a41dff7a06741ecf00ae7a0261639b3c",
+      "id": "dnd.appearance.icon.24",
+      "name": "Иконка дайса 24",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice4.png",
+      "sha256": "2d08bb962e9f46bb7c7528d3fbaec0678ea36da1ca737c0d283f75b4d0c1074b",
+      "id": "dnd.appearance.icon.25",
+      "name": "Иконка дайса 25",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice5.png",
+      "sha256": "3150b1d08e114ac2e39116a20fa026e75f0171aea982d91a99b831341b70568a",
+      "id": "dnd.appearance.icon.26",
+      "name": "Иконка дайса 26",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice6.png",
+      "sha256": "74676876337dec0280ed90ca0493bf0a9745e28d2a4f651f2424a53639826ee0",
+      "id": "dnd.appearance.icon.27",
+      "name": "Иконка дайса 27",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice7.png",
+      "sha256": "53053ab3de23cdff026da4e195f12fb934a396b8548cd158a28ecaf68976d676",
+      "id": "dnd.appearance.icon.28",
+      "name": "Иконка дайса 28",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice8.png",
+      "sha256": "484532a0e373e1f5ad47205f3d34496109188e3e10a448074131a4e6a0af38cd",
+      "id": "dnd.appearance.icon.29",
+      "name": "Иконка дайса 29",
+      "kind": "icon"
+    },
+    {
+      "path": "app/assets/dice/dice9.png",
+      "sha256": "6f7c33496d0d82ba63e6c1c3be4de9011c7170749e23ff9369fb151b048bba55",
+      "id": "dnd.appearance.icon.30",
+      "name": "Иконка дайса 30",
+      "kind": "icon"
+    },
+    {
+      "path": "1790788500741.png",
+      "sha256": "c0aebfe39dc4af2cf95cfd5892f92b20588d13229ed3d0bae7aef7ee94dd2020",
+      "id": "dnd.appearance.icon.default",
+      "name": "Стандартная иконка приложения",
+      "kind": "icon"
+    }
+  ]
+}

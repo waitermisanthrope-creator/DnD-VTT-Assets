@@ -1,0 +1,57 @@
+name: Publish owner-authorized appearance packages
+on:
+  push:
+    branches: [main]
+    paths: ['migration/owner-appearance.json', 'tools/package_owner_appearance.py', '.github/workflows/owner-appearance-release.yml']
+  workflow_dispatch:
+concurrency:
+  group: owner-appearance-release
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: waitermisanthrope-creator/DnD-VTT
+          ref: d4f62bdefa6f5d3020a28ce2f7650375ebe289ad
+          path: application-source
+          sparse-checkout: |
+            wallpapers
+            app/assets/dice
+      - run: python -m pip install Pillow==11.3.0 CairoSVG==2.7.1
+      - run: python tools/package_owner_appearance.py application-source
+      - name: Publish immutable images then verify every public payload
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view owner-appearance-v1 >/dev/null 2>&1 || gh release create owner-appearance-v1 --title 'Owner-created wallpapers and dice icons v1' --notes '63 author-confirmed images. Runtime PNG JSON packages, original source SHA and lossless pixel verification. No CC0 claim. Original application files preserved.'
+          python - <<'UPLOAD'
+          import json,subprocess
+          from pathlib import Path
+          known={a['name'] for a in json.loads(subprocess.check_output(['gh','release','view','owner-appearance-v1','--json','assets']))['assets']}
+          for path in sorted(Path('dist/owner-appearance-v1').glob('*')):
+              if path.name not in known:subprocess.run(['gh','release','upload','owner-appearance-v1',str(path)],check=True)
+          UPLOAD
+          python - <<'PYCODE'
+          import json,hashlib,urllib.request
+          from pathlib import Path
+          catalog=json.loads(Path('dist/owner-appearance-v1/index.json').read_text())
+          for p in catalog['packs']:
+              if '/owner-appearance-v1/' not in p['url']:continue
+              data=urllib.request.urlopen(p['url'],timeout=90).read()
+              assert len(data)==p['bytes'] and hashlib.sha256(data).hexdigest()==p['sha256']
+          print('PUBLIC_APPEARANCE_SHA_PASS')
+          PYCODE
+      - name: Activate new-client catalog after public verification
+        run: |
+          mkdir -p catalog/v3
+          cp dist/owner-appearance-v1/index.json catalog/v3/index.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog/v3/index.json
+          git commit -m 'Activate byte-verified owner appearance catalog v3'
+          git push origin HEAD:main
