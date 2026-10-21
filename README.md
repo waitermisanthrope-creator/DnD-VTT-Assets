@@ -17,3 +17,12 @@ Heavy binaries go to Releases. Unity Android/Windows AssetBundle builder is impl
 The mechanical metadata has newly written short descriptions, without republishing sourcebook prose or art. Stat changes, initial character parameters and pending choices use the currently supported Unity handlers; full combat automation and class advancement are not provided by these data packages. Extra classes that replace a race remain import-only in Unity. Feat stat bonuses are applied; other feat effects and additional prerequisites require manual handling.
 
 Legacy third-party PNG/model files have NOT been relicensed or republished. Their exact provenance review remains BLOCKED. The new map-surface package provides original procedural checker patterns under the same legacy map keys; these are replacements, not byte-identical copies of the original images. The original files stay in the application's source repository, outside the minimal player's dependency graph. Maps preserve model references and show placeholders when a model package is missing.
+
+## Owner-created appearance library
+
+- `catalog/v3/index.json`: Unity 1.00.17+ catalog, including 63 owner-authorized image packs (32 wallpapers, 30 dice images, original standard icon). v2 remains available for old clients.
+- [owner-appearance-v1](https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/tag/owner-appearance-v1): 118,807,535 bytes of separate runtime JSON packages; all public sizes/SHA-256 verified before catalog activation. Nothing is automatically bundled into the application.
+- `schemas/catalog-entry-v3.schema.json`: validated image-aware schema.
+- `docs/OWNER_APPEARANCE.md`: author permission, AI provenance and conversion details. These images are not represented as CC0.
+
+Native Unity supports selecting installed wallpapers, icon previews and PNG export. Downloadable images do not automatically replace the Android system launcher icon. Original application sources remain unchanged.
