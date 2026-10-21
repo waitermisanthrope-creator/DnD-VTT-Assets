@@ -76,8 +76,7 @@
       ]
     },
     "unityVersion": {
-      "type": "string",
-      "minLength": 1
+      "type": "string"
     },
     "dependencies": {
       "type": "array",
@@ -154,6 +153,10 @@
           },
           "url": {
             "pattern": "^https://github\\.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/"
+          },
+          "unityVersion": {
+            "type": "string",
+            "minLength": 1
           }
         }
       }
