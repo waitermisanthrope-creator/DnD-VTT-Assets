@@ -1,0 +1,21 @@
+name: Publish verified Quaternius CC0 map sources
+on:
+  push:
+    branches: [main]
+    paths: ['migration/quaternius-source-release.json', 'tools/package_quaternius_sources.py', '.github/workflows/quaternius-source-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 tools/package_quaternius_sources.py
+      - name: Publish verified original sources, never an APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create quaternius-cc0-map-props-v1 dist/quaternius-cc0-map-props-v1.zip dist/quaternius-SHA256SUMS.txt dist/quaternius-release-manifest.json --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title 'Quaternius CC0 map props sources v1' --notes '25 meshes + 12 textures byte-identical to the CC0 Fantasy Props Standard kit; 25 glTF JSON documents structurally identical. Original license and exact hashes included. Source archive, not an installable runtime bundle. Source originals retained.'
