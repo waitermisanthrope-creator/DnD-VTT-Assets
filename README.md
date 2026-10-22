@@ -1,3 +1,7 @@
+# Current client catalogs —2026-10-22
+
+Unity1.00.28+ uses **catalog/v6/index.json**: optional1.1 UV-textured dice with independent installed-set selection and real native Unity previews. v5 remains for1.00.24/25, v4 for1.00.23; all old payloads retained. Material1.1 data is compatible with26+, but28 fixes world numeral depth, fit, contrast and overexposed tint. No exact31 sculpt claim:01/05 have reference-authored face art, other29 use tinted engraved material.
+
 # DnD-VTT-Assets
 
 > **Новый участник команды / ChatGPT:** прочитай [AGENTS.md](AGENTS.md), [атлас всех файлов](docs/FILE_ATLAS.md) и [руководство по созданию модов в Content](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_AUTHOR_GUIDE.md). Для Unity1.00.24+ каталог ассетов: `catalog/v5/index.json`; v4 сохранён для1.00.23.

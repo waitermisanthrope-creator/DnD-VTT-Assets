@@ -49,3 +49,9 @@ manager deliberately disables installation while a dependency is missing.
 ## Material revision1.1.0 (Unity1.00.26+)
 
 Existing appearance publisher generates31 immutable JSON Release payloads with an embedded1024-square UV atlas (about3.5MB per independently installed set). No art in APK. Catalogv6 only; v5 recipes untouched.1.1 sets no longer require a launcher icon installation; the icon ID is an artistic association. Native choices include manual installed-set selection and explicit icon-following. Two specifically authored face regions target Abyss/Blood references; other palettes use tinted engraved silver, not31 exact separate sculpts. Do not advertise these as exact replicas. The old schematic preview is omitted until actual textured native renders can replace it.
+
+## Reviewed native previews —1.00.28
+
+Current recommended app28 fixes depth-tested, fitted, outlined world glyphs and albedo HDR clipping. `sources/dice-native-render-v1.json` pins the actual successful Unity renderer source, run URL, render-index SHA and31 recipe hashes. The existing preview producer `--native-dice` verifies every original768x640 PNG, removes only uniform felt margins, records `nativeCropBox`, and emits bounded JPEGs. No source icon is presented as a3D model screenshot. All31 source PNGs remain in the app Release for audit. Native Linux-Editor renders are not claimed as physical-phone screenshots. v5/old previews are unchanged;26/27 test renders are historical, not current preview sources.
+
+Updating: install app28, refresh workshop catalogs, install/update the desired3D pack to1.1.0, then3D table → Мои наборы. The app icon is optional. Existing1.0 packs still roll and show a texture-update hint. Other29 individually authored/sculpted replicas and elastic simulation remain unfinished.

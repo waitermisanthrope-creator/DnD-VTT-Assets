@@ -128,3 +128,5 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 - sources/dice-materials/gothic-atlas-v1.png — generated game UV atlas; see provenance-v1.json.
 - sources/dice-materials/provenance-v1.json — reference/packaging/license provenance.
 - catalog/v6/index.json — activated by existing appearance publisher after public SHA checks; v5 preserved.
+
+- sources/dice-native-render-v1.json — exact reviewed Unity1.00.28 native render index/source/run/31 recipe hashes; consumed by existing preview publisher.
