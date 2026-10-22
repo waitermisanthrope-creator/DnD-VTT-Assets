@@ -1,6 +1,6 @@
 # DnD-VTT-Assets
 
-> **Новый участник команды / ChatGPT:** прочитай [AGENTS.md](AGENTS.md), [атлас всех файлов](docs/FILE_ATLAS.md) и [руководство по созданию модов в Content](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_AUTHOR_GUIDE.md). Живой каталог ассетов: `catalog/v4/index.json`.
+> **Новый участник команды / ChatGPT:** прочитай [AGENTS.md](AGENTS.md), [атлас всех файлов](docs/FILE_ATLAS.md) и [руководство по созданию модов в Content](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_AUTHOR_GUIDE.md). Для Unity1.00.24+ каталог ассетов: `catalog/v5/index.json`; v4 сохранён для1.00.23.
 
 Public curated Unity asset registry.
 

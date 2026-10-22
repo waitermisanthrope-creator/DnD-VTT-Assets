@@ -5,7 +5,7 @@
 ## Сначала изучи репозиторий
 
 - `README.md` и `docs/FILE_ATLAS.md` — карта всех файлов и текущая структура.
-- `catalog/v4/index.json` — **живой** каталог, который читает Unity. `v1/v2/v3` — исторические каталоги для старых клиентов.
+- `catalog/v5/index.json` — **живой** каталог, который читает Unity. `v1/v2/v3/v4` — исторические каталоги для старых клиентов.
 - `packages/demo.model.markers.json` — рабочие примитивы, `packages/demo.appearance.amber.json` — цвета, `packages/dnd.map.3d-tavern-v740019.json` — карта.
 - `schemas/catalog-entry-v3.schema.json` и `schemas/catalog-entry-v1.schema.json` — поля каталожных записей.
 - `docs/ASSET_PIPELINE.md`, `docs/LICENSE_REVIEW.md`, `docs/OWNER_APPEARANCE.md` — права и безопасная поставка.
@@ -14,7 +14,7 @@
 ## Главные правила
 
 1. **Помогай новичку**: объясни Content vs Assets vs Unity, открой конкретный работающий пример, покажи как изменить или создать небольшой JSON и проверить в приложении.
-2. Перед записью ищи существующий `id` в `catalog/v4/index.json` и `packages/`, не дублируй. Карты должны соответствовать формату `LegacyMapDocument`.
+2. Перед записью ищи существующий `id` в `catalog/v5/index.json` и `packages/`, не дублируй. Карты должны соответствовать формату `LegacyMapDocument`.
 3. Новая запись должна ссылаться на доступный по HTTPS payload с правильными `bytes`, `sha256`, `id`, `version`, `format`, `platform`, `unityVersion`. После каждой правки **пересчитывай** checksum точных байтов. Ничего не выдумывай.
 4. `catalog/v4` — **публичный**. Добавление в main сразу делает пакет видимым пользователям; отдельного private/DEV-канала в текущем Unity-клиенте нет. Незавершённые моды держи в отдельной ветке.
 5. В `packages/*.json` допустимы **только поддерживаемые декларативные структуры**. `model` без AssetBundle = простые Unity Cube/Sphere/Cylinder/Capsule, а не произвольная GLB. Изображения могут ссылаться на отдельные проверенные JSON-релизы; предпросмотры — JPEG с ограничениями размера/SHA.
@@ -27,3 +27,5 @@
 ## Ограничения Unity
 
 Текущее чтение каталогов: `waitermisanthrope-creator/DnD-VTT`, ветка `experiment/unity-vtt`, файлы `unity/Assets/Vtt/Runtime/LegacySessionPanel.ContentManager.cs`, `WorkshopStore.cs`, `WorkshopRuntime.cs`. Полный атлас большого проекта — `PROJECT_ATLAS.md` в этой ветке. Не обещай, что новая произвольная C#-механика появится от установки JSON или AssetBundle.
+
+Для Unity1.00.24+ текущий каталог — v5; v4 сохранён для1.00.23. Связанные dice-наборы — поддерживаемые JSON appearance/imageKind=dice рецепты семи предопределённых физических семейств, а не произвольный исполняемый код/GLB. См. docs/DICE_THEMES.md.

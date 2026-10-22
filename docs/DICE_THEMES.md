@@ -35,3 +35,12 @@ by the client's validator. Android/Windows share the same generator and data.
 Status: recipes prepared; native candidate must pass all31 sets, all7 collision
 families and mixed/large request tests before releasing the client. Do not claim
 successful physical-device testing from recipe generation.
+
+Verification: App candidate39810382192/source d3efae76 passed both targets
+(60 face checks,129 PhysX throws and both11-die mixed requests per target),
+real Windows install/upgrade/reinstall, Android original signature/identity.
+Preview run39815906775 SUCCESS;106 public JPEGs verified before v5 activation
+in5a351ce.31 dice schematics total220,272 bytes.75 old previews unchanged.
+APK paired publication39814696908 queued at time of this note; physical-device
+validation remains pending. The linked icon must be installed first: the current
+manager deliberately disables installation while a dependency is missing.
