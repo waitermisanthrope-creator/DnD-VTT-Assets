@@ -26,3 +26,11 @@ Legacy third-party PNG/model files have NOT been relicensed or republished. Thei
 - `docs/OWNER_APPEARANCE.md`: author permission, AI provenance and conversion details. These images are not represented as CC0.
 
 Native Unity supports selecting installed wallpapers, icon previews and PNG export. Downloadable images do not automatically replace the Android system launcher icon. Original application sources remain unchanged.
+
+## Lightweight graphical previews — Unity 1.00.22+
+
+`catalog/v4/index.json` preserves package identity, version, original authorship/license and payload SHA, adding independent bounded preview metadata. v3 remains unchanged for older clients. Release `workshop-previews-v1` physically contains 75 JPEGs totaling 672,045 bytes, plus preview-index.json with original-source attribution and checksums. Every public preview URL/size/SHA was verified before catalog activation.
+
+Owner wallpapers/icons use scaled originals. Map previews are first-floor layout schematics, procedural materials use actual swatches, and the primitive marker pack uses a clearly labeled geometric schematic. Schematics are not presented as final 3D renders. The generator does not publish unknown binary models or unreviewed author projects.
+
+New clients fetch only small previews of the current workshop page into an ephemeral bounded cache, clear it on exit, and do not download/install the full content package for browsing. Full package integrity checks and installation remain separate.
