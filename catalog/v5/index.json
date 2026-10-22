@@ -1969,7 +1969,7 @@
       "bytes": 477,
       "sha256": "d8c84b404e59c54fe6938df741f6b5732998615a76c2d25176c89c4d89e34a26",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.01.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 01» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.01-cae3836223ec.jpg",
         "bytes": 12318,
@@ -1998,7 +1998,7 @@
       "bytes": 478,
       "sha256": "acfc82a61817ba80dc5158e4ba193c75e6f166d203e3c10dec82c429d22a0ae8",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.02.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 02» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.02-21e2fce640a7.jpg",
         "bytes": 12604,
@@ -2027,7 +2027,7 @@
       "bytes": 490,
       "sha256": "fa85ea784c59515b3c21d9acb4e917a98851a47ac373c513720f558ce9448d17",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.03.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 03» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.03-49c18f317a6f.jpg",
         "bytes": 15205,
@@ -2056,7 +2056,7 @@
       "bytes": 492,
       "sha256": "470d79bcae816c7c9ec25158d987c6fc289ea5a278168a839689bb87a167656e",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.04.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 04» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.04-cd065600d664.jpg",
         "bytes": 12859,
@@ -2085,7 +2085,7 @@
       "bytes": 487,
       "sha256": "6a51b1f6992da74720aa7d55b96efef3835273a11bfa7d8ec9fac69f3772f27e",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.05.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 05» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.05-623f553e3661.jpg",
         "bytes": 11699,
@@ -2114,7 +2114,7 @@
       "bytes": 488,
       "sha256": "9b6eedfd1fd8e533e4ac2ea9bef82f80a325b82c168382526763709b7b830670",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.06.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 06» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.06-a3d6ab71a003.jpg",
         "bytes": 11101,
@@ -2143,7 +2143,7 @@
       "bytes": 479,
       "sha256": "dcf31eba5c3552d32a3ce964f58e009fc6ba31cfe9085aa5007044ee47b00007",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.07.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 07» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.07-f08ebfdb0064.jpg",
         "bytes": 13259,
@@ -2172,7 +2172,7 @@
       "bytes": 493,
       "sha256": "89c51981d05b947398abe375cbe3d51798030ac9513bb0b754fa277d5d43e148",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.08.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 08» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.08-e886e44b0fc3.jpg",
         "bytes": 13782,
@@ -2201,7 +2201,7 @@
       "bytes": 499,
       "sha256": "ae899f1cb7244d38f7d06a1af334aeed0fece5ea79cf6c2f4e815893d2f0b432",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.09.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 09» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.09-55665e45d6e7.jpg",
         "bytes": 13980,
@@ -2230,7 +2230,7 @@
       "bytes": 493,
       "sha256": "f28e3b680c2c254f06e9d8782ee7b04311068f8fc300b77f18db0e1dbf80617a",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.10.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 10» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.10-d11b1af91404.jpg",
         "bytes": 13828,
@@ -2259,7 +2259,7 @@
       "bytes": 496,
       "sha256": "b2c763bd92953ccc14a92463d2ba5353903f2e4a29e38d6fcb4ec1d0f8114793",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.11.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 11» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.11-a9fb1f3fbf6b.jpg",
         "bytes": 13751,
@@ -2288,7 +2288,7 @@
       "bytes": 487,
       "sha256": "68c8677a2cd62ab19e22be01590e5ce78be24a3ddf97aacc675b404f8b7678bb",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.12.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 12» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.12-e472e6415596.jpg",
         "bytes": 12930,
@@ -2317,7 +2317,7 @@
       "bytes": 490,
       "sha256": "b19c1eae418b596e45b8b8c7fc11acd87eaaf51eef47c055cf7c3faade897bc1",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.13.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 13» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.13-1a5d45c8d61a.jpg",
         "bytes": 15387,
@@ -2346,7 +2346,7 @@
       "bytes": 495,
       "sha256": "a30c9b4473d2e10eb5198af822be670608b4ef164ea84dc6d3e233f6eac3ec64",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.14.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 14» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.14-e8fe1824b35d.jpg",
         "bytes": 13005,
@@ -2375,7 +2375,7 @@
       "bytes": 492,
       "sha256": "5edcd8e3df8f9f5516b53801f3e90a1602ea296cda5596b150007c966d554e07",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.15.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 15» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.15-e30a484433d0.jpg",
         "bytes": 14021,
@@ -2404,7 +2404,7 @@
       "bytes": 485,
       "sha256": "dda3ca0a30c75d0530872df7e0156e2938eb8f78a209d13a74b94923cd015cf4",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.16.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 16» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.16-7e39cd050e99.jpg",
         "bytes": 14021,
@@ -2433,7 +2433,7 @@
       "bytes": 495,
       "sha256": "d67a754c1343ce5acb69398b5a60109e71eeb7853a4835e0047a6e9367e1bc39",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.17.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 17» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.17-6338c4049f76.jpg",
         "bytes": 10870,
@@ -2462,7 +2462,7 @@
       "bytes": 486,
       "sha256": "30e476ec3fdc8597ae8ff2caff0ac37a64c0c66cf5cc321cb29e8ce073f50925",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.18.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 18» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.18-b5d942a44495.jpg",
         "bytes": 14462,
@@ -2491,7 +2491,7 @@
       "bytes": 481,
       "sha256": "da99a665dc00b8e0a75b0622944dc508a3f3b076a7bb9d36eb214af910c2fded",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.19.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 19» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.19-e574f1b26d49.jpg",
         "bytes": 12351,
@@ -2520,7 +2520,7 @@
       "bytes": 495,
       "sha256": "6de3ff8499a7840bb3d60de84fd9664398389ffb027a1b151f3fee00be5f23e4",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.20.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 20» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.20-ac7eb84b931b.jpg",
         "bytes": 12418,
@@ -2549,7 +2549,7 @@
       "bytes": 488,
       "sha256": "c0f9a3b3cbf31532ccd994b0971c04b0a55f166af22b1c050109a8c44030f6b9",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.21.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 21» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.21-be76735a3576.jpg",
         "bytes": 13407,
@@ -2578,7 +2578,7 @@
       "bytes": 494,
       "sha256": "5387aea4cf38a45f8aa8904dae303d53377270ed1e44b9d05dd2e34224781cbe",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.22.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 22» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.22-eac9f303becf.jpg",
         "bytes": 13106,
@@ -2607,7 +2607,7 @@
       "bytes": 489,
       "sha256": "831748a3dbeaf1ecadee37c603406f5ff8cd988ca5e96bcfbdd217f88ce573e4",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.23.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 23» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.23-824f64c7d8a4.jpg",
         "bytes": 8383,
@@ -2636,7 +2636,7 @@
       "bytes": 484,
       "sha256": "7da5698378087482b2bd90ab218c318ba6879a62e35c2f63c9d5c06a240ddbe7",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.24.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 24» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.24-f2a25773f454.jpg",
         "bytes": 13227,
@@ -2665,7 +2665,7 @@
       "bytes": 479,
       "sha256": "9ea71aa02181fb44b5d79febe06eb88974536937ac648c35398c32a754a74616",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.25.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 25» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.25-9138c6f6b02b.jpg",
         "bytes": 12754,
@@ -2694,7 +2694,7 @@
       "bytes": 489,
       "sha256": "53ab76b7a0b1152b396291c3c6af5021eb1faeb4bb3a8c3fe00c731131768ee8",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.26.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 26» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.26-04548c44af2b.jpg",
         "bytes": 11884,
@@ -2723,7 +2723,7 @@
       "bytes": 485,
       "sha256": "7cf3ba13eee5ef79df22b3b162be3ee75635056326ac93edd8135ade904021e6",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.27.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 27» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.27-1bc223f221c6.jpg",
         "bytes": 13211,
@@ -2752,7 +2752,7 @@
       "bytes": 492,
       "sha256": "ed5f80c5a254ad1f469ee5d29d00bc0b525f58aa83bb2a862d2084c6de865d0b",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.28.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 28» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.28-781048abc3c3.jpg",
         "bytes": 11624,
@@ -2781,7 +2781,7 @@
       "bytes": 493,
       "sha256": "bed56e6cd8bbd236b3394809ece26ec2781be7a5af33fd8f1638bde010510a91",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.29.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 29» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.29-e3630c52fcad.jpg",
         "bytes": 12900,
@@ -2810,7 +2810,7 @@
       "bytes": 477,
       "sha256": "985e0957f461fa81a2d160914a02c5444172357cd362ba08a2f5f9ca61e95884",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.30.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Иконка дайса 30» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.30-d00f24115283.jpg",
         "bytes": 11709,
@@ -2839,7 +2839,7 @@
       "bytes": 495,
       "sha256": "5b3db3025fc1bd031edc7f0eab2f16633b9749944bdb56cec5cee6e82ec1bf8d",
       "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.dice.icon.default.json",
-      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
+      "description": "Полный физический набор d4/d6/d8/d10/d12/d20/d100. Сначала установите «Стандартная иконка приложения» из Оформление → Иконки. Связан с авторской иконкой. Выступы имеют объём и коллайдеры; набор не сертифицирован как равномерный. Требуется Unity 1.00.24+. Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.",
       "preview": {
         "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.appearance.icon.default-dab1ebfa206c.jpg",
         "bytes": 12134,
