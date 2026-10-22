@@ -78,3 +78,42 @@
 `tools/package_dice_themes.py` produces `packages/dnd.dice.icon.{01..30,default}.json`.
 `docs/DICE_THEMES.md` documents parameters, physical collisions and limits.
 The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchanged.
+
+### Additional tracked dice files
+
+| Path | Bytes | Purpose |
+|---|---:|---|
+| `catalog/v5/index.json` | 150475 | Generator-capable client catalog; v4 preserved |
+| `docs/DICE_THEMES.md` | 2273 | Generator, physical collision and preview contract |
+| `packages/dnd.dice.icon.01.json` | 477 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.02.json` | 478 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.03.json` | 490 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.04.json` | 492 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.05.json` | 487 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.06.json` | 488 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.07.json` | 479 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.08.json` | 493 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.09.json` | 499 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.10.json` | 493 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.11.json` | 496 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.12.json` | 487 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.13.json` | 490 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.14.json` | 495 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.15.json` | 492 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.16.json` | 485 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.17.json` | 495 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.18.json` | 486 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.19.json` | 481 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.20.json` | 495 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.21.json` | 488 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.22.json` | 494 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.23.json` | 489 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.24.json` | 484 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.25.json` | 479 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.26.json` | 489 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.27.json` | 485 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.28.json` | 492 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.29.json` | 493 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.30.json` | 477 | Full icon-linked dice recipe |
+| `packages/dnd.dice.icon.default.json` | 495 | Full icon-linked dice recipe |
+| `tools/package_dice_themes.py` | 4601 | Reproducible recipe/hash/catalog producer |
