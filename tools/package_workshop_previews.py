@@ -2,20 +2,27 @@
 import argparse,base64,hashlib,io,json,urllib.request
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageColor
+from dice_geometry_preview import render as render_dice
+DICE=json.loads((Path(__file__).resolve().parents[1]/"sources/dice-preview-geometry-v1.json").read_text());DICE_MODELS={m["id"]:m for m in DICE["models"]}
 ROOT='https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/'
 p=argparse.ArgumentParser();p.add_argument('--fixtures',type=Path);p.add_argument('--out',type=Path,default=Path('dist/workshop-previews-v1'));args=p.parse_args();args.out.mkdir(parents=True,exist_ok=True)
 def fetch(url,limit):
  assert url.startswith(('https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/','https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/'))
  with urllib.request.urlopen(url,timeout=90) as r:data=r.read(limit+1)
  assert len(data)<=limit;return data
-catalog=json.loads((args.fixtures/'catalog/v3/index.json').read_text() if args.fixtures else fetch('https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/catalog/v3/index.json',8*1024*1024))
+catalog=json.loads((args.fixtures/'catalog/v5/index.json').read_text() if args.fixtures else fetch('https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/catalog/v5/index.json',8*1024*1024))
 files=[]
 for m in catalog['packs']:
  if m.get('format')!='json':continue
  raw=(args.fixtures/'packages'/Path(m['url']).name).read_bytes() if args.fixtures else fetch(m['url'],5*1024*1024)
  assert len(raw)==m['bytes'] and hashlib.sha256(raw).hexdigest()==m['sha256']
  data=json.loads(raw);canvas=Image.new('RGB',(320,200),'#17191f');draw=ImageDraw.Draw(canvas);kind=None
- if data.get('images'):
+ if data.get('diceThemes'):
+  model=DICE_MODELS[m['id']];assert model['payloadSha256']==m['sha256']
+  theme=data['diceThemes'][0];assert model['body']==theme['body'] and model['trim']==theme['trim']
+  render_dice(canvas,model);kind='dice-geometry'
+  m['description']=m['description'].replace('Миниатюра — исходная иконка, ориентир стиля, не рендер 3D-модели.','Миниатюра — схематичный вид реальной геометрии d20 из генератора; полный набор содержит все семь типов. Материалы и цифры в игре отображает Unity.')
+ elif data.get('images'):
   image=data['images'][0];b=base64.b64decode(image['pngBase64'],validate=True) if 'pngBase64' in image else base64.b64decode(image['data'],validate=True)
   assert hashlib.sha256(b).hexdigest()==image['sha256']
   im=Image.open(io.BytesIO(b)).convert('RGBA');im.thumbnail((320,200),Image.Resampling.LANCZOS);canvas.paste(im,((320-im.width)//2,(200-im.height)//2),im);kind='image'
@@ -46,5 +53,5 @@ for m in catalog['packs']:
  name=m['id']+'-'+m['sha256'][:12]+'.jpg';path=args.out/name;canvas.save(path,'JPEG',quality=82,optimize=True);b=path.read_bytes();assert len(b)<=256*1024
  preview=dict(url=ROOT+name,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),width=320,height=200,kind=kind);m['preview']=preview;files.append(dict(name=name,**preview,sourceId=m['id'],sourceSha256=m['sha256'],author=m['author'],license=m['license']))
 (args.out/'index.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
-(args.out/'preview-index.json').write_text(json.dumps(dict(schemaVersion=1,previews=files),ensure_ascii=False,indent=2)+'\n')
+(args.out/'preview-index-v5.json').write_text(json.dumps(dict(schemaVersion=1,previews=files),ensure_ascii=False,indent=2)+'\n')
 print('WORKSHOP_PREVIEWS_READY',len(files),sum(f['bytes'] for f in files))

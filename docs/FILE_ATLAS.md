@@ -117,3 +117,10 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 | `packages/dnd.dice.icon.30.json` | 477 | Full icon-linked dice recipe |
 | `packages/dnd.dice.icon.default.json` | 495 | Full icon-linked dice recipe |
 | `tools/package_dice_themes.py` | 4601 | Reproducible recipe/hash/catalog producer |
+
+### Actual dice geometry previews
+
+| Path | Bytes | Purpose |
+|---|---:|---|
+| `sources/dice-preview-geometry-v1.json` | 822526 | Actual exported C# meshes, source commit and recipe SHA; offline schematic rendering only |
+| `tools/dice_geometry_preview.py` | 2188 | Bounded320x200 triangle projection used by existing preview publisher |

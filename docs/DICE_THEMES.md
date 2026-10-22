@@ -12,9 +12,13 @@ cannot activate these recipes. The new client must validate the new data before
 activation. The linked icon is an actual package dependency; uninstall protection
 uses the existing workshop mechanism. Images are not duplicated into recipes.
 
-The gallery thumbnail currently shows the linked original icon as a style
-reference, explicitly disclosed in the package description; it is not a render
-of the resulting 3D model. The dice table itself provides the real model preview.
+The gallery thumbnails are bounded320x200 schematic projections of the actual
+C# generator meshes, exported from d3efae76 and pinned by recipe SHA in
+sources/dice-preview-geometry-v1.json. They show a representative d20, not a
+Unity screenshot or a transfer of the original icon texture. The dice table
+provides the actual interactive model. tools/dice_geometry_preview.py is used
+by the existing preview producer/publisher. The previous75 JPEGs stay byte-identical;
+new31 previews are activated in v5 only after public byte/SHA verification.
 
 Seven bounded physical families: spikes, curved tentacles, curved fangs, beveled
 bodies, vines, crystals, raised filigree. Frusta are closed convex meshes,

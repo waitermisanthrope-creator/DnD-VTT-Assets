@@ -2,7 +2,7 @@ name: Publish verified lightweight workshop previews
 on:
   push:
     branches: [main]
-    paths: ['tools/package_workshop_previews.py', '.github/workflows/workshop-previews-release.yml']
+    paths: ['tools/package_workshop_previews.py', 'tools/dice_geometry_preview.py', 'sources/dice-preview-geometry-v1.json', '.github/workflows/workshop-previews-release.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -28,17 +28,17 @@ jobs:
           known={a['name'] for a in json.loads(subprocess.check_output(['gh','release','view','workshop-previews-v1','--json','assets']))['assets']}
           for path in sorted(folder.glob('*')):
               if path.name not in known:subprocess.run(['gh','release','upload','workshop-previews-v1',str(path)],check=True)
-          for item in json.loads((folder/'preview-index.json').read_text())['previews']:
+          for item in json.loads((folder/'preview-index-v5.json').read_text())['previews']:
               data=urllib.request.urlopen(item['url'],timeout=90).read()
               assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
           print('PUBLIC_WORKSHOP_PREVIEWS_SHA_PASS')
           PY
-      - name: Activate v4 after verification (preserve v3)
+      - name: Activate v5 after verification (preserve v3/v4)
         run: |
-          mkdir -p catalog/v4
-          cp dist/workshop-previews-v1/index.json catalog/v4/index.json
+          mkdir -p catalog/v5
+          cp dist/workshop-previews-v1/index.json catalog/v5/index.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add catalog/v4/index.json
-          git commit -m 'Activate SHA-verified lightweight graphical previews catalog v4' || exit 0
+          git add catalog/v5/index.json
+          git commit -m 'Activate SHA-verified lightweight graphical previews catalog v5' || exit 0
           git push origin HEAD:main

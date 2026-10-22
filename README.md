@@ -38,3 +38,5 @@ Owner wallpapers/icons use scaled originals. Map previews are first-floor layout
 New clients fetch only small previews of the current workshop page into an ephemeral bounded cache, clear it on exit, and do not download/install the full content package for browsing. Full package integrity checks and installation remain separate.
 
 - `catalog/v5/index.json`: 31 icon-linked full procedural dice sets for Unity1.00.24+; v4 stays compatible with previous clients. See [dice data and collision contract](docs/DICE_THEMES.md).
+
+Dice previews:31 real-generator geometry schematics (220,272 bytes total), added by the existing preview workflow after public SHA verification;75 previous previews remain unchanged. Runtime v5 / Unity1.00.24+.
