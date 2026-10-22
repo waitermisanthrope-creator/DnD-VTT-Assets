@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.07",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.07.theme",
+      "name": "Алая кость",
+      "iconPackage": "dnd.appearance.icon.07",
+      "shape": "fangs",
+      "body": "#C5BDB5",
+      "trim": "#8C3036",
+      "length": 0.12,
+      "width": 0.05,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

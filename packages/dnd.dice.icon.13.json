@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.13",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.13.theme",
+      "name": "Золотые черепа",
+      "iconPackage": "dnd.appearance.icon.13",
+      "shape": "rounded",
+      "body": "#5B4814",
+      "trim": "#E7C94E",
+      "length": 0.08,
+      "width": 0.085,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

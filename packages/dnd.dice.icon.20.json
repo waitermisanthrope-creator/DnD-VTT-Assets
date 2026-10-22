@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.20",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.20.theme",
+      "name": "Хрустальный туман",
+      "iconPackage": "dnd.appearance.icon.20",
+      "shape": "crystal",
+      "body": "#52717D",
+      "trim": "#D0EAF2",
+      "length": 0.08,
+      "width": 0.03,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

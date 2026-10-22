@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.25",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.25.theme",
+      "name": "Живая чаща",
+      "iconPackage": "dnd.appearance.icon.25",
+      "shape": "vines",
+      "body": "#25371F",
+      "trim": "#C8B35C",
+      "length": 0.09,
+      "width": 0.04,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

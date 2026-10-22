@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.default",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.default.theme",
+      "name": "Наследие",
+      "iconPackage": "dnd.appearance.icon.default",
+      "shape": "filigree",
+      "body": "#564D38",
+      "trim": "#CAB98A",
+      "length": 0.04,
+      "width": 0.035,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

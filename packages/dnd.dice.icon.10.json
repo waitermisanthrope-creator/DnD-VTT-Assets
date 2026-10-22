@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.10",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.10.theme",
+      "name": "Ледяной призрак",
+      "iconPackage": "dnd.appearance.icon.10",
+      "shape": "tentacles",
+      "body": "#3A6C7E",
+      "trim": "#B2F2EE",
+      "length": 0.12,
+      "width": 0.04,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

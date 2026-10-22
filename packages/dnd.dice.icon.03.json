@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.03",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.03.theme",
+      "name": "Ледяная корона",
+      "iconPackage": "dnd.appearance.icon.03",
+      "shape": "crystal",
+      "body": "#17426F",
+      "trim": "#95E7FF",
+      "length": 0.13,
+      "width": 0.055,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

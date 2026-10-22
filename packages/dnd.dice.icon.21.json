@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.21",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.21.theme",
+      "name": "Золотой дракон",
+      "iconPackage": "dnd.appearance.icon.21",
+      "shape": "fangs",
+      "body": "#6F3B12",
+      "trim": "#F1BC53",
+      "length": 0.12,
+      "width": 0.055,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.19",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.19.theme",
+      "name": "Лесная лоза",
+      "iconPackage": "dnd.appearance.icon.19",
+      "shape": "vines",
+      "body": "#29351A",
+      "trim": "#B0B96A",
+      "length": 0.1,
+      "width": 0.045,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

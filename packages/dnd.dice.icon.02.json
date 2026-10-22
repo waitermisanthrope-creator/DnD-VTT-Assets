@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.02",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.02.theme",
+      "name": "Арканум",
+      "iconPackage": "dnd.appearance.icon.02",
+      "shape": "filigree",
+      "body": "#24144F",
+      "trim": "#D07DFF",
+      "length": 0.045,
+      "width": 0.03,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

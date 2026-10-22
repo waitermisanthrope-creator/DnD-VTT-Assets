@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.14",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.14.theme",
+      "name": "Астральный вихрь",
+      "iconPackage": "dnd.appearance.icon.14",
+      "shape": "filigree",
+      "body": "#21204B",
+      "trim": "#B786F1",
+      "length": 0.04,
+      "width": 0.025,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

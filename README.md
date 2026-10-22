@@ -36,3 +36,5 @@ Native Unity supports selecting installed wallpapers, icon previews and PNG expo
 Owner wallpapers/icons use scaled originals. Map previews are first-floor layout schematics, procedural materials use actual swatches, and the primitive marker pack uses a clearly labeled geometric schematic. Schematics are not presented as final 3D renders. The generator does not publish unknown binary models or unreviewed author projects.
 
 New clients fetch only small previews of the current workshop page into an ephemeral bounded cache, clear it on exit, and do not download/install the full content package for browsing. Full package integrity checks and installation remain separate.
+
+- `catalog/v5/index.json`: 31 icon-linked full procedural dice sets for Unity1.00.24+; v4 stays compatible with previous clients. See [dice data and collision contract](docs/DICE_THEMES.md).

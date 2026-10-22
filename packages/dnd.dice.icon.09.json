@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.09",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.09.theme",
+      "name": "Серебряное кружево",
+      "iconPackage": "dnd.appearance.icon.09",
+      "shape": "filigree",
+      "body": "#62647B",
+      "trim": "#D7E2EB",
+      "length": 0.045,
+      "width": 0.03,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

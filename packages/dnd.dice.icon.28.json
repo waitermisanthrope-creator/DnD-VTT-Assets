@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.28",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.28.theme",
+      "name": "Серебряная вязь",
+      "iconPackage": "dnd.appearance.icon.28",
+      "shape": "filigree",
+      "body": "#363943",
+      "trim": "#D3D6DB",
+      "length": 0.04,
+      "width": 0.03,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

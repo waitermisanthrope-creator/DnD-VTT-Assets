@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.08",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.08.theme",
+      "name": "Нефритовый дракон",
+      "iconPackage": "dnd.appearance.icon.08",
+      "shape": "vines",
+      "body": "#164842",
+      "trim": "#CAB56B",
+      "length": 0.1,
+      "width": 0.045,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

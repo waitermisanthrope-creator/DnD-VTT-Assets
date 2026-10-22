@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.16",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.16.theme",
+      "name": "Ночное небо",
+      "iconPackage": "dnd.appearance.icon.16",
+      "shape": "rounded",
+      "body": "#132449",
+      "trim": "#F4CE6D",
+      "length": 0.025,
+      "width": 0.035,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

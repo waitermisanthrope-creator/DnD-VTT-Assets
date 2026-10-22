@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.17",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.17.theme",
+      "name": "Багровый обсидиан",
+      "iconPackage": "dnd.appearance.icon.17",
+      "shape": "spikes",
+      "body": "#29151B",
+      "trim": "#B94346",
+      "length": 0.07,
+      "width": 0.035,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

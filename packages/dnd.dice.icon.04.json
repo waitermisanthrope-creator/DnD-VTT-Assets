@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.04",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.04.theme",
+      "name": "Древняя бронза",
+      "iconPackage": "dnd.appearance.icon.04",
+      "shape": "filigree",
+      "body": "#64411A",
+      "trim": "#F5BF66",
+      "length": 0.045,
+      "width": 0.035,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

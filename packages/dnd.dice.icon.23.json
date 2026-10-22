@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.23",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.23.theme",
+      "name": "Чистое золото",
+      "iconPackage": "dnd.appearance.icon.23",
+      "shape": "rounded",
+      "body": "#AC7828",
+      "trim": "#FFDA72",
+      "length": 0.025,
+      "width": 0.025,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

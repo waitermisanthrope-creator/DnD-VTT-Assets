@@ -107,7 +107,8 @@
     "imageKind": {
       "enum": [
         "wallpaper",
-        "icon"
+        "icon",
+        "dice"
       ]
     },
     "minClientVersionCode": {

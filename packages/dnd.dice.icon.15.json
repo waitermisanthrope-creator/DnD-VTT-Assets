@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.15",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.15.theme",
+      "name": "Звёздное золото",
+      "iconPackage": "dnd.appearance.icon.15",
+      "shape": "rounded",
+      "body": "#142D63",
+      "trim": "#E5BE5A",
+      "length": 0.025,
+      "width": 0.03,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

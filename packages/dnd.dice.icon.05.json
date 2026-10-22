@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.05",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.05.theme",
+      "name": "Кровавые клыки",
+      "iconPackage": "dnd.appearance.icon.05",
+      "shape": "fangs",
+      "body": "#491C25",
+      "trim": "#C1B1AE",
+      "length": 0.14,
+      "width": 0.06,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

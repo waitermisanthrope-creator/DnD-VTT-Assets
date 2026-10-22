@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.22",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.22.theme",
+      "name": "Неоновый разлом",
+      "iconPackage": "dnd.appearance.icon.22",
+      "shape": "filigree",
+      "body": "#17154A",
+      "trim": "#836AFF",
+      "length": 0.045,
+      "width": 0.025,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.27",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.27.theme",
+      "name": "Грозовой лёд",
+      "iconPackage": "dnd.appearance.icon.27",
+      "shape": "crystal",
+      "body": "#174D8F",
+      "trim": "#79DFFF",
+      "length": 0.08,
+      "width": 0.04,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

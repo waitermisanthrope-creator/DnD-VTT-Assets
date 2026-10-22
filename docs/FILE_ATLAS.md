@@ -71,3 +71,10 @@
 3. Изменения в `packages/` и `catalog/` должны соответствовать друг другу по ID, версии, доступному URL, точной длине и SHA-256. Выдуманные хеши/результаты тестов запрещены.
 4. Отмечай, что проверено фактически, а что ещё нужно проверить устройством. Не обещай совместимость для неизвестных эффектов Unity.
 5. Публикация в `main` — публикация для **всех пользователей**, не приватный тестовый режим. Черновик до публикации держи в рабочей ветке.
+
+## Icon-linked dice extension (2026-10-22)
+
+`catalog/v5/index.json` adds31 sets for generator-capable Unity1.00.24+.
+`tools/package_dice_themes.py` produces `packages/dnd.dice.icon.{01..30,default}.json`.
+`docs/DICE_THEMES.md` documents parameters, physical collisions and limits.
+The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchanged.

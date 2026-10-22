@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.12",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.12.theme",
+      "name": "Ядовитые шипы",
+      "iconPackage": "dnd.appearance.icon.12",
+      "shape": "spikes",
+      "body": "#263514",
+      "trim": "#A1C65D",
+      "length": 0.14,
+      "width": 0.045,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.dice.icon.11",
+  "version": "1.0.0",
+  "type": "appearance",
+  "diceThemes": [
+    {
+      "id": "dnd.dice.icon.11.theme",
+      "name": "Костяное сплетение",
+      "iconPackage": "dnd.appearance.icon.11",
+      "shape": "fangs",
+      "body": "#53332A",
+      "trim": "#DCC2A0",
+      "length": 0.13,
+      "width": 0.055,
+      "sides": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        20,
+        100
+      ]
+    }
+  ]
+}
