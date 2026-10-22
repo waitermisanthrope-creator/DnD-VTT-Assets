@@ -1,0 +1,44 @@
+name: Publish verified lightweight workshop previews
+on:
+  push:
+    branches: [main]
+    paths: ['tools/package_workshop_previews.py', '.github/workflows/workshop-previews-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: workshop-previews-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install Pillow==11.3.0
+      - run: python tools/package_workshop_previews.py
+      - name: Publish immutable previews and verify public bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view workshop-previews-v1 >/dev/null 2>&1 || gh release create workshop-previews-v1 --latest=false --title 'Workshop lightweight previews v1' --notes 'Small derived previews of published owner-authorized images, map layouts, procedural surfaces and geometric objects. Original authorship/licenses and source SHA-256 retained in preview-index.json. Maps/models use clearly labeled schematics.'
+          python - <<'PY'
+          import json,subprocess,hashlib,urllib.request
+          from pathlib import Path
+          folder=Path('dist/workshop-previews-v1')
+          known={a['name'] for a in json.loads(subprocess.check_output(['gh','release','view','workshop-previews-v1','--json','assets']))['assets']}
+          for path in sorted(folder.glob('*')):
+              if path.name not in known:subprocess.run(['gh','release','upload','workshop-previews-v1',str(path)],check=True)
+          for item in json.loads((folder/'preview-index.json').read_text())['previews']:
+              data=urllib.request.urlopen(item['url'],timeout=90).read()
+              assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
+          print('PUBLIC_WORKSHOP_PREVIEWS_SHA_PASS')
+          PY
+      - name: Activate v4 after verification (preserve v3)
+        run: |
+          mkdir -p catalog/v4
+          cp dist/workshop-previews-v1/index.json catalog/v4/index.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog/v4/index.json
+          git commit -m 'Activate SHA-verified lightweight graphical previews catalog v4' || exit 0
+          git push origin HEAD:main
