@@ -16,10 +16,10 @@ The gallery thumbnail currently shows the linked original icon as a style
 reference, explicitly disclosed in the package description; it is not a render
 of the resulting 3D model. The dice table itself provides the real model preview.
 
-Seven bounded physical families: spikes, curved tentacles, curved fangs, rounded
-vertex caps, vines, crystals, raised filigree. Frusta are closed convex meshes,
+Seven bounded physical families: spikes, curved tentacles, curved fangs, beveled
+bodies, vines, crystals, raised filigree. Frusta are closed convex meshes,
 with the identical mesh used for rendering and each compound collision piece.
-Curves remain compound shapes, not a single convex hull that fills empty gaps.
+Curves follow incident edges and remain compound shapes, not a single convex hull that fills empty gaps. Smooth sets clip physical corners while retaining original numbered face regions. Meshes are reused across batches in a bounded per-theme cache.
 Numbering remains on the original readable face regions. Themed results require
 an upward/downward dominant numbered face; ambiguous rests are retried with a
 bounded explicit failure. Real irregular collisions can bias outcomes.
