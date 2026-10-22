@@ -1,5 +1,7 @@
 # DnD-VTT-Assets
 
+> **Новый участник команды / ChatGPT:** прочитай [AGENTS.md](AGENTS.md), [атлас всех файлов](docs/FILE_ATLAS.md) и [руководство по созданию модов в Content](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_AUTHOR_GUIDE.md). Живой каталог ассетов: `catalog/v4/index.json`.
+
 Public curated Unity asset registry.
 
 - `catalog/v1/index.json`: original CC0 declarative marker objects and map surface colors, activated by the Unity workshop.
