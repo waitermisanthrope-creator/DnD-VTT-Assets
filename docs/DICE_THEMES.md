@@ -45,3 +45,7 @@ APK paired publication39814696908 SUCCESS (feed10024/ec040aa9); both actual
 public installers size/SHA verified, actual public APK original v2/v3 certificate
 independently checked. Physical-device validation remains pending. The linked icon must be installed first: the current
 manager deliberately disables installation while a dependency is missing.
+
+## Material revision1.1.0 (Unity1.00.26+)
+
+Existing appearance publisher generates31 immutable JSON Release payloads with an embedded1024-square UV atlas (about3.5MB per independently installed set). No art in APK. Catalogv6 only; v5 recipes untouched.1.1 sets no longer require a launcher icon installation; the icon ID is an artistic association. Native choices include manual installed-set selection and explicit icon-following. Two specifically authored face regions target Abyss/Blood references; other palettes use tinted engraved silver, not31 exact separate sculpts. Do not advertise these as exact replicas. The old schematic preview is omitted until actual textured native renders can replace it.

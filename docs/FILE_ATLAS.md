@@ -124,3 +124,7 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 |---|---:|---|
 | `sources/dice-preview-geometry-v1.json` | 822526 | Actual exported C# meshes, source commit and recipe SHA; offline schematic rendering only |
 | `tools/dice_geometry_preview.py` | 2188 | Bounded320x200 triangle projection used by existing preview publisher |
+
+- sources/dice-materials/gothic-atlas-v1.png — generated game UV atlas; see provenance-v1.json.
+- sources/dice-materials/provenance-v1.json — reference/packaging/license provenance.
+- catalog/v6/index.json — activated by existing appearance publisher after public SHA checks; v5 preserved.

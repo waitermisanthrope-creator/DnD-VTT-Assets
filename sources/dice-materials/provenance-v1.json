@@ -1,0 +1,14 @@
+{
+  "generator": "ChatGPT image generation",
+  "date": "2026-10-22",
+  "sourceReferences": [
+    "dnd.appearance.icon.01",
+    "dnd.appearance.icon.05"
+  ],
+  "purpose": "UV material atlas: abyss face, blood face, organic skin, engraved silver; no pre-baked die numerals",
+  "sourceGenerationFile": "exec-72e16061-6346-466c-ae89-fd542cfe827e.png",
+  "packaging": "ImageMagick standard texture export to1024x1024 RGB PNG; source retained in execution workspace.",
+  "atlasSha256": "ce0865322b45538ec95c77d225449ea0a8f1a0f5422c60888be62f5d425c8aec",
+  "license": "Owner-authorized DnD-VTT distribution; no CC0 claim",
+  "limitations": "Not an exact sculpt or reconstruction of hidden image surfaces. Other sets use tinted engraved material, not individually authored replicas."
+}

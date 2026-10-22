@@ -1,9 +1,30 @@
 """Small declarative, cross-platform physical dice sets tied to author-owned icons.
 No source image is copied into the APK. Keep v4 unchanged for pre-generator clients.
 """
-import hashlib,json
+import hashlib,json,base64,sys,struct
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
+# New material-bearing payloads are immutable Release assets; never overwrite v5 recipes.
+if '--materials' in sys.argv:
+ output=root/'dist/owner-appearance-v1';output.mkdir(parents=True,exist_ok=True)
+ png=(root/'sources/dice-materials/gothic-atlas-v1.png').read_bytes()
+ width,height=struct.unpack('>II',png[16:24]);assert (width,height)==(1024,1024) and len(png)<4*1024*1024
+ image=dict(width=width,height=height,sha256=hashlib.sha256(png).hexdigest(),pngBase64=base64.b64encode(png).decode())
+ catalog=json.loads((root/'catalog/v5/index.json').read_text())
+ for manifest in catalog['packs']:
+  if manifest.get('imageKind')!='dice':continue
+  payload=json.loads((root/'packages'/(manifest['id']+'.json')).read_text())
+  payload['version']='1.1.0';theme=payload['diceThemes'][0]
+  suffix=manifest['id'].rsplit('.',1)[1]
+  theme.update(albedo=image,faceTile=0 if suffix in ['01','29'] else 1 if suffix in ['05','17'] else 3,trimTile=2 if theme['shape']=='tentacles' else 3,tintTexture=suffix not in ['01','05'])
+  data=(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n').encode();assert len(data)<=5*1024*1024
+  filename=manifest['id']+'-1.1.0.json';(output/filename).write_bytes(data)
+  manifest.update(version='1.1.0',minClientVersionCode=10026,dependencies=[],bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),url='https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/'+filename,description='Текстурированный 3D-набор d4/d6/d8/d10/d12/d20/d100. Выбирается на столе в «Мои наборы», независимо от иконки Android. Новая текстура и металлические рёбра; это 3D-адаптация иллюстрации, не точная скульптурная копия. Старые версии 1.0.0 сохранены. Требуется Unity 1.00.26+.')
+  manifest.pop('preview',None) # Old schematic is not a preview of the textured version.
+ catalog['catalogId']='dnd-vtt-assets-v6'
+ (output/'index-v6.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+ print('DICE_TEXTURED_PACKAGES_GENERATED',31,'immutable v1.1.0; v5 unchanged')
+ sys.exit(0)
 # Reviewed against the owner's 31 original icon images, not inferred by filenames.
 rows=[
  ('01','Бездна','tentacles','#382054','#AC55EE',.18,.055),
