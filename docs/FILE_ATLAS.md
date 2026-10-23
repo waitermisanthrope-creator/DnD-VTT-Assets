@@ -148,3 +148,9 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 - catalog/v6/index.json — activated by existing appearance publisher after public SHA checks; v5 preserved.
 
 - sources/dice-native-render-v1.json — exact reviewed Unity1.00.28 native render index/source/run/31 recipe hashes; consumed by existing preview publisher.
+
+### 2026-10-23 tray producer extension
+
+- `tools/package_dice_themes.py --trays`: four bounded native tray recipes and v9 candidate catalog; no new competing producer.
+- `.github/workflows/owner-appearance-release.yml`: immutable upload/public SHA validation, then v9 activation; v8 and six1.2.1 dice unchanged.
+- `schemas/catalog-entry-v3.schema.json`: additive dice-tray imageKind.

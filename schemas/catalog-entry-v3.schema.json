@@ -108,7 +108,8 @@
       "enum": [
         "wallpaper",
         "icon",
-        "dice"
+        "dice",
+        "dice-tray"
       ]
     },
     "minClientVersionCode": {

@@ -4,6 +4,20 @@ No source image is copied into the APK. Keep v4 unchanged for pre-generator clie
 import hashlib,json,base64,sys,struct
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
+# Native tray recipes extend the same appearance publisher; six material payloads stay immutable.
+if '--trays' in sys.argv:
+ output=root/'dist/owner-appearance-v1';output.mkdir(parents=True,exist_ok=True)
+ catalog=json.loads((root/'catalog/v8/index.json').read_text())
+ rows=[('spiral','Винтовая башня · Астрал','astral','#142039','#8C7651'),('pit','Башня с ямой · Руны','runes','#21202D','#756475'),('hexagon','Шестигранный лоток · Паутина','web','#212C26','#77653F'),('octagon','Восьмигранный лоток · Компас','compass','#173E43','#977542')]
+ for profile,name,print_name,floor,wall in rows:
+  pid='dnd.dice.tray.'+profile
+  payload=dict(schemaVersion=1,id=pid,version='1.0.0',type='appearance',diceTrays=[dict(id=pid+'.tray',name=name,profile=profile,print=print_name,floor=floor,wall=wall)])
+  data=(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n').encode();filename=pid+'-1.0.0.json';(output/filename).write_bytes(data)
+  assert pid not in [m['id'] for m in catalog['packs']]
+  catalog['packs'].append(dict(schemaVersion=1,id=pid,name=name,version='1.0.0',author='waitermisanthrope-creator',license='Author-authorized DnD-VTT distribution',type='appearance',imageKind='dice-tray',minClientVersionCode=10031,format='json',platform='any',unityVersion='',dependencies=[],bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),url='https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/'+filename,description='Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+.'))
+ catalog['catalogId']='dnd-vtt-assets-v9';(output/'index-v9.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+ print('DICE_TRAY_RECIPES_PASS',len(rows),'v8 unchanged')
+ sys.exit(0)
 # Six explicit test sets use a shared numbered atlas per set, never mutate v6/1.1 payloads.
 if '--experiments' in sys.argv:
  from PIL import Image,ImageDraw,ImageFont
