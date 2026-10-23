@@ -3117,7 +3117,7 @@
       "schemaVersion": 1,
       "id": "dnd.collections.maps",
       "name": "Полный сборник: 3D-карты",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "collection",
       "author": "DnD-VTT contributors",
       "license": "CC0-1.0 (collection metadata only; member licenses unchanged)",
@@ -3133,16 +3133,17 @@
         "dnd.map.3d-tavern-v740019",
         "dnd.map.3d-test-dungeon",
         "dnd.map.3d-town-v740019",
-        "dnd.map.3d-village-v740019"
+        "dnd.map.3d-village-v740019",
+        "dnd.appearance.map-surfaces"
       ],
-      "bytes": 459,
-      "sha256": "dcfec114dd002c94854024ae193a3c5655aef0da202406ba451f04b6dd4191a0",
-      "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.collections.maps-1.0.0.json",
+      "bytes": 494,
+      "sha256": "b6927be4fe736c0ee41f26fd62459a697b7b8094c0f366ca1ddb0a6f04b8f681",
+      "url": "https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/packages/dnd.collections.maps-1.0.1.json",
       "minClientVersionCode": 10036,
       "collectionCategory": "maps",
       "collectionRole": "category",
       "modCategoryCollection": true,
-      "packageCount": 9,
+      "packageCount": 10,
       "description": "Все доступные дополнения категории «3D-карты» одной кнопкой. Установленные проверенные версии пропускаются; прерванную загрузку можно продолжить. Требуется Unity1.00.36+. Лицензии исходных модов сохраняются."
     },
     {

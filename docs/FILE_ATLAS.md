@@ -176,3 +176,5 @@ Existing preview publisher39956772016/job120424443608 SUCCESS, catalogv9 activat
 - `sources/mod-category-collections-1.0.0.json`: точные ID состава.
 - `catalog/v9/index.json`:118 записей, исходные111 не менялись; v1–v8 сохранены.
 - Генератор/верификатор/схема находятся в Content: `tools/build_mod_collections.py`, `tools/verify_mod_collections.py`, `schemas/mod-collection-v1.schema.json`. Новые метаданные не копируют исходные арты и не меняют их права.
+
+`packages/dnd.collections.maps-1.0.1.json`: актуальная группа9 карт с обязательным `dnd.appearance.map-surfaces`;1.0.0 сохранена неизменной как история. Общие зависимости пропускаются при последующей установке сборника материалов.
