@@ -1,8 +1,8 @@
 {
-  "release": "unity-v1.00.32",
-  "sourceCommit": "d3f71068f3ae59a824ee488a83df88f01d0b5376",
-  "candidateRun": "https://github.com/waitermisanthrope-creator/DnD-VTT/actions/runs/39937442635",
-  "indexSha256": "b40f861757dd5d4fc4a53c1617a8318be429117b1fd63936d262be7f1ba55f59",
+  "release": "unity-v1.00.34",
+  "sourceCommit": "24b2a4773e3951ea9192d9663596f26338936254",
+  "candidateRun": "https://github.com/waitermisanthrope-creator/DnD-VTT/actions/runs/39952385083",
+  "indexSha256": "fc8ad8922b789acbde3772e3ae950968eb4b1d0f488526995f77af0483885762",
   "catalogVersion": 9,
   "recipes": {
     "dnd.dice.icon.01": "03c68eb45c304a62275761fa5a6b9c3c148875f9ed0a24ddca42fa8d12daa2d2",

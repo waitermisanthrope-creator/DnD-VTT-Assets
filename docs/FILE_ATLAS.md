@@ -161,3 +161,7 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 - `sources/dice-native-render-v1.json`: exact reviewed app32/source/run/index pin, ten package SHA/profile mappings.
 - `tools/package_workshop_previews.py --native-dice`: v9 supports six material and four tray native captures; older v6/v7/v8 modes retained.
 - `.github/workflows/workshop-previews-release.yml`: existing publisher verifies new ten public JPEGs then activatesv9.
+
+### 2026-10-23 reviewed native34 preview pin
+
+Existing sources/dice-native-render-v1.json now pins reviewed34/source24b2a477/run39952385083/indexfc8ad8922b789acbde3772e3ae950968eb4b1d0f488526995f77af0483885762. Existing preview publisher derives ten new immutable JPEGs and verifies public bytes before catalogv9 metadata activation. Six1.2.1 materials/four1.0.0 tray payloads, all existing IDs and old native32 JPEGs remain unchanged. README/AGENTS/docs/DICE_THEMES.md identify current34 correction and device-QA boundary. No new producer or file format.
