@@ -2669,12 +2669,12 @@
       "bytes": 1478933,
       "sha256": "03c68eb45c304a62275761fa5a6b9c3c148875f9ed0a24ddca42fa8d12daa2d2",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.01-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль abyss. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль abyss. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.32.",
       "preview": {
-        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.01-03c68eb45c30-unity-v1.00.30.jpg",
-        "bytes": 17367,
-        "sha256": "ab550cd00fe02b85c29aebbcd25b08be2d405fbc03fc9f18db6d763cdfc7c561",
-        "width": 254,
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.01-03c68eb45c30-unity-v1.00.32.jpg",
+        "bytes": 16965,
+        "sha256": "00229e642a1f30e4c102d111fedd139e1c2d002d3853154e1174c77864761970",
+        "width": 384,
         "height": 320,
         "kind": "dice-native-render"
       }
@@ -2696,13 +2696,13 @@
       "bytes": 1520098,
       "sha256": "a49397a2a94713f10877d13f2aaeb994994978d64f8eb3a0b0acf5261aa7335e",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.03-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль ice. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль ice. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.32.",
       "preview": {
-        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.03-a49397a2a947-unity-v1.00.30.jpg",
-        "bytes": 26823,
-        "sha256": "fda41480021a371a70039cd56569efa4cc61068bc8e796af31c2da9c9d21fffb",
-        "width": 343,
-        "height": 312,
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.03-a49397a2a947-unity-v1.00.32.jpg",
+        "bytes": 14612,
+        "sha256": "00d3ff5ae243393cac89429cec36e2bf4a9f76a15b1621bf337cde2d240e4a29",
+        "width": 384,
+        "height": 320,
         "kind": "dice-native-render"
       }
     },
@@ -2723,12 +2723,12 @@
       "bytes": 1427806,
       "sha256": "6a8f910c29b60eadbe3c7f6bd2f4fbc8a9ebd5f5c64af1aa940ea9a398b4d4d3",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.05-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль blood. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль blood. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.32.",
       "preview": {
-        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.05-6a8f910c29b6-unity-v1.00.30.jpg",
-        "bytes": 23222,
-        "sha256": "da4ddfd5f428b125df910a885125e7d8ab72053f676ddaa9a614d69064290a90",
-        "width": 344,
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.05-6a8f910c29b6-unity-v1.00.32.jpg",
+        "bytes": 13783,
+        "sha256": "2455660c86213893664dca7eab114b0ad24db49fc61d58fb70e19420454c0d6d",
+        "width": 384,
         "height": 320,
         "kind": "dice-native-render"
       }
@@ -2750,13 +2750,13 @@
       "bytes": 1496029,
       "sha256": "9758c037325860d6ec2c0307acf1a4baf2f16ad908dcd081b5d5352328e09efe",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.06-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль stone. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль stone. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.32.",
       "preview": {
-        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.06-9758c0373258-unity-v1.00.30.jpg",
-        "bytes": 21634,
-        "sha256": "3fe6f348a0cc17436dc1cf59ad9010b0cdb09504c6ba82dca450f3944fa06b69",
-        "width": 335,
-        "height": 303,
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.06-9758c0373258-unity-v1.00.32.jpg",
+        "bytes": 13452,
+        "sha256": "efa7e15eba68d58e907c97bbb8d8c6fa1416035692c29070fe62e56b60e33acf",
+        "width": 384,
+        "height": 320,
         "kind": "dice-native-render"
       }
     },
@@ -2777,12 +2777,12 @@
       "bytes": 1415453,
       "sha256": "f5b05d101ed34926aa70a5d5ece89548427d61e1172c4db8e62837db08576b67",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.19-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль vine. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль vine. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.32.",
       "preview": {
-        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.19-f5b05d101ed3-unity-v1.00.30.jpg",
-        "bytes": 23364,
-        "sha256": "5af25e7e4519577f96a1f241014947f1d1bfe3b3ad29e8ea89c2d92ff315801b",
-        "width": 346,
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.19-f5b05d101ed3-unity-v1.00.32.jpg",
+        "bytes": 13624,
+        "sha256": "7e806515b2f3aa023fc2964460b6b7ebc6c9acb8ef48b4f785708908cb8318e2",
+        "width": 384,
         "height": 320,
         "kind": "dice-native-render"
       }
@@ -2804,13 +2804,13 @@
       "bytes": 1282095,
       "sha256": "7a290e99de4c3b73ba2ccd5ce0f578ec37ff884000302b9558e968d303d5fc2e",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.test.slime-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль slime. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль slime. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.32.",
       "preview": {
-        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.test.slime-7a290e99de4c-unity-v1.00.30.jpg",
-        "bytes": 21563,
-        "sha256": "559c587b4dd67a4e6b6f68e340c6ecda2a40f4d13e8bfb7e08a7035a72de491a",
-        "width": 322,
-        "height": 292,
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.test.slime-7a290e99de4c-unity-v1.00.32.jpg",
+        "bytes": 13823,
+        "sha256": "9b4293a0bbfc5bd07180b95d6272dd017685046f1c99a0d82b1ffe3f7088de81",
+        "width": 384,
+        "height": 320,
         "kind": "dice-native-render"
       }
     },
@@ -2831,7 +2831,15 @@
       "bytes": 259,
       "sha256": "a9942df5b8d4edddad7f2313b60d9338b691c01010fa0c47f84d0ff2a341e894",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.tray.spiral-1.0.0.json",
-      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+."
+      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+. Предпросмотр — реальный рендер Unity лотка / башни из проверенной сборки 1.00.32.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.tray.spiral-a9942df5b8d4-unity-v1.00.32.jpg",
+        "bytes": 15117,
+        "sha256": "b222842aa85647979098743e57e2e4e7281996b7b0717fc4fce13b7a2d2b8bfb",
+        "width": 355,
+        "height": 320,
+        "kind": "dice-tray-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2850,7 +2858,15 @@
       "bytes": 240,
       "sha256": "dd41b243c52563393311f55508f91f96538c617112b73cce8f33cb51f03536cf",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.tray.pit-1.0.0.json",
-      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+."
+      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+. Предпросмотр — реальный рендер Unity лотка / башни из проверенной сборки 1.00.32.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.tray.pit-dd41b243c525-unity-v1.00.32.jpg",
+        "bytes": 15228,
+        "sha256": "4922b44146e8874da4051818e184047854330419ed6e3dd8319f30178fecce48",
+        "width": 327,
+        "height": 320,
+        "kind": "dice-tray-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2869,7 +2885,15 @@
       "bytes": 269,
       "sha256": "19cccbb6788672120d2d468d20ef2cf2ce394873a978c068d2ec3e154dd1d1f5",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.tray.hexagon-1.0.0.json",
-      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+."
+      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+. Предпросмотр — реальный рендер Unity лотка / башни из проверенной сборки 1.00.32.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.tray.hexagon-19cccbb67886-unity-v1.00.32.jpg",
+        "bytes": 16625,
+        "sha256": "76888402dfe9123c3079327c6cb1367e76d0d1bd45779fdb3ccccbbeaa3bc90a",
+        "width": 384,
+        "height": 258,
+        "kind": "dice-tray-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2888,7 +2912,15 @@
       "bytes": 273,
       "sha256": "5e4f489156773f90a9d394ee07f6244b5542c85e2759bf35b05e41b684883f52",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.tray.octagon-1.0.0.json",
-      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+."
+      "description": "Физический лоток / башня с отдельным процедурным принтом. Выбор после установки: Объёмные дайсы → Лоток / башня. Декларативный профиль встроенного конструктора; без скачиваемого кода. Требуется Unity1.00.31+. Предпросмотр — реальный рендер Unity лотка / башни из проверенной сборки 1.00.32.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.tray.octagon-5e4f48915677-unity-v1.00.32.jpg",
+        "bytes": 14002,
+        "sha256": "6b673238b73d4d32d54b00213c4eb9f02234e2ec735e7b22a6111a13a2982102",
+        "width": 384,
+        "height": 288,
+        "kind": "dice-tray-native-render"
+      }
     }
   ]
 }
