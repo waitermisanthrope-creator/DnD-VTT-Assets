@@ -52,3 +52,5 @@ Dice previews:31 real-generator geometry schematics (220,272 bytes total), added
 ## Native trays and living dice — Unity1.00.32
 
 Current catalogv9 adds four tiny native tray recipes (spiral tower, pit tower, hexagon, octagon) while preserving all107existing payloads. Download then select on the dice screen with «Лоток / башня». Existing six1.2.1 sets use the new app's compliant every-vertex Abyss arms and bouncing slime; up to20physical bodies concurrently, unlimited total request streaming. Explicit opt-in phone shake requires actual accelerometer hardware. Native32 previews are pinned to reviewed app evidence via the same preview pipeline; real phone sensitivity/performance remains owner QA. See docs/DICE_THEMES.md. Beta remains free.
+
+Delivery confirmed: app1.00.32 feed active and both public installers SHA/signature/upgrade-gated; ten actual public native32 previews147231bytes independently verified. Existing preview run39941062363 SUCCESS, catalog activation8464fd7. Physical phone sensitivity/performance still requires owner QA.
