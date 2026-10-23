@@ -48,3 +48,7 @@ New clients fetch only small previews of the current workshop page into an ephem
 - `catalog/v5/index.json`: 31 icon-linked full procedural dice sets for Unity1.00.24+; v4 stays compatible with previous clients. See [dice data and collision contract](docs/DICE_THEMES.md).
 
 Dice previews:31 real-generator geometry schematics (220,272 bytes total), added by the existing preview workflow after public SHA verification;75 previous previews remain unchanged. Runtime v5 / Unity1.00.24+.
+
+## Native trays and living dice — Unity1.00.32
+
+Current catalogv9 adds four tiny native tray recipes (spiral tower, pit tower, hexagon, octagon) while preserving all107existing payloads. Download then select on the dice screen with «Лоток / башня». Existing six1.2.1 sets use the new app's compliant every-vertex Abyss arms and bouncing slime; up to20physical bodies concurrently, unlimited total request streaming. Explicit opt-in phone shake requires actual accelerometer hardware. Native32 previews are pinned to reviewed app evidence via the same preview pipeline; real phone sensitivity/performance remains owner QA. See docs/DICE_THEMES.md. Beta remains free.

@@ -21,12 +21,16 @@ if args.native_dice:
  raw=native('dice-render-index.json',64*1024);assert hashlib.sha256(raw).hexdigest()==source['indexSha256']
  evidence=json.loads(raw);assert evidence['sourceCommit']==source['sourceCommit'] and evidence['buildRun']==source['candidateRun']
  by_name={item['name']:item for item in evidence['images']};assert len(by_name)==len(evidence['images']) and len(by_name)>=31
- version=source.get('catalogVersion',6);assert version in [6,7,8]
+ version=source.get('catalogVersion',6);assert version in [6,7,8,9]
  catalog=json.loads(Path(f'catalog/v{version}/index.json').read_text());files=[]
  for m in catalog['packs']:
-  if m.get('imageKind')!='dice' or m['id'] not in source['recipes']:continue
-  assert m['version']==('1.2.1' if version==8 else '1.2.0' if version==7 else '1.1.0') and m['sha256']==source['recipes'][m['id']]
-  if version>=7:
+  if m.get('imageKind') not in ['dice','dice-tray'] or m['id'] not in source['recipes']:continue
+  is_tray=m.get('imageKind')=='dice-tray'
+  assert m['version']==('1.0.0' if is_tray else '1.2.1' if version>=8 else '1.2.0' if version==7 else '1.1.0') and m['sha256']==source['recipes'][m['id']]
+  if is_tray:
+   assert version==9;profile=source['profiles'][m['id']];assert profile in ['spiral','pit','hexagon','octagon']
+   name='arena-tray-'+profile+'.png'
+  elif version>=7:
    profile=source['profiles'][m['id']];assert profile in ['abyss','ice','blood','stone','vine','slime']
    name='test-'+profile+'-d20.png'
   else:name=m['id']+'.theme-d20.png'
@@ -41,10 +45,10 @@ if args.native_dice:
   box=(max(0,box[0]-24),max(0,box[1]-24),min(canvas.width,box[2]+24),min(canvas.height,box[3]+24))
   canvas=canvas.crop(box);canvas.thumbnail((384,320),Image.Resampling.LANCZOS)
   filename=m['id']+'-'+m['sha256'][:12]+'-'+source['release']+'.jpg';path=args.out/filename;canvas.save(path,'JPEG',quality=88,optimize=True);b=path.read_bytes();assert len(b)<=256*1024
-  preview=dict(url=ROOT+filename,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),width=canvas.width,height=canvas.height,kind='dice-native-render')
-  m['preview']=preview;m['description']+=' Предпросмотр — реальный рендер Unity d20 из проверенной сборки '+source['release'].removeprefix('unity-v')+'.'
+  preview=dict(url=ROOT+filename,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),width=canvas.width,height=canvas.height,kind='dice-tray-native-render' if is_tray else 'dice-native-render')
+  m['preview']=preview;m['description']=m['description'].split(' Предпросмотр — реальный рендер Unity')[0]+' Предпросмотр — реальный рендер Unity '+('лотка / башни' if is_tray else 'd20')+' из проверенной сборки '+source['release'].removeprefix('unity-v')+'.'
   files.append(dict(name=filename,**preview,sourceId=m['id'],sourceSha256=m['sha256'],renderSha256=entry['sha256'],nativeCropBox=box,appSourceCommit=source['sourceCommit'],buildRun=source['candidateRun'],author=m['author'],license=m['license']))
- assert len(files)==(6 if version>=7 else 31)
+ assert len(files)==(10 if version==9 else 6 if version>=7 else 31)
  (args.out/'index.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
  (args.out/f'preview-index-v{version}.json').write_text(json.dumps(dict(schemaVersion=1,previews=files),ensure_ascii=False,indent=2)+'\n')
  print('NATIVE_DICE_PREVIEWS_READY',len(files),sum(f['bytes'] for f in files))

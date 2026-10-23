@@ -1,16 +1,20 @@
 {
-  "release": "unity-v1.00.30",
-  "sourceCommit": "da5a40354c6854ebf57b6f35f823080d9fd42b47",
-  "candidateRun": "https://github.com/waitermisanthrope-creator/DnD-VTT/actions/runs/39884231802",
-  "indexSha256": "22bd94b490c5dfd431af6914a57ecb2ccb0ead9201bab810c5dc2450040f33db",
-  "catalogVersion": 8,
+  "release": "unity-v1.00.32",
+  "sourceCommit": "d3f71068f3ae59a824ee488a83df88f01d0b5376",
+  "candidateRun": "https://github.com/waitermisanthrope-creator/DnD-VTT/actions/runs/39937442635",
+  "indexSha256": "b40f861757dd5d4fc4a53c1617a8318be429117b1fd63936d262be7f1ba55f59",
+  "catalogVersion": 9,
   "recipes": {
     "dnd.dice.icon.01": "03c68eb45c304a62275761fa5a6b9c3c148875f9ed0a24ddca42fa8d12daa2d2",
     "dnd.dice.icon.03": "a49397a2a94713f10877d13f2aaeb994994978d64f8eb3a0b0acf5261aa7335e",
     "dnd.dice.icon.05": "6a8f910c29b60eadbe3c7f6bd2f4fbc8a9ebd5f5c64af1aa940ea9a398b4d4d3",
     "dnd.dice.icon.06": "9758c037325860d6ec2c0307acf1a4baf2f16ad908dcd081b5d5352328e09efe",
     "dnd.dice.icon.19": "f5b05d101ed34926aa70a5d5ece89548427d61e1172c4db8e62837db08576b67",
-    "dnd.dice.test.slime": "7a290e99de4c3b73ba2ccd5ce0f578ec37ff884000302b9558e968d303d5fc2e"
+    "dnd.dice.test.slime": "7a290e99de4c3b73ba2ccd5ce0f578ec37ff884000302b9558e968d303d5fc2e",
+    "dnd.dice.tray.spiral": "a9942df5b8d4edddad7f2313b60d9338b691c01010fa0c47f84d0ff2a341e894",
+    "dnd.dice.tray.pit": "dd41b243c52563393311f55508f91f96538c617112b73cce8f33cb51f03536cf",
+    "dnd.dice.tray.hexagon": "19cccbb6788672120d2d468d20ef2cf2ce394873a978c068d2ec3e154dd1d1f5",
+    "dnd.dice.tray.octagon": "5e4f489156773f90a9d394ee07f6244b5542c85e2759bf35b05e41b684883f52"
   },
   "profiles": {
     "dnd.dice.icon.01": "abyss",
@@ -18,6 +22,10 @@
     "dnd.dice.icon.05": "blood",
     "dnd.dice.icon.06": "stone",
     "dnd.dice.icon.19": "vine",
-    "dnd.dice.test.slime": "slime"
+    "dnd.dice.test.slime": "slime",
+    "dnd.dice.tray.spiral": "spiral",
+    "dnd.dice.tray.pit": "pit",
+    "dnd.dice.tray.hexagon": "hexagon",
+    "dnd.dice.tray.octagon": "octagon"
   }
 }

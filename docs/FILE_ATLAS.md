@@ -154,3 +154,10 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 - `tools/package_dice_themes.py --trays`: four bounded native tray recipes and v9 candidate catalog; no new competing producer.
 - `.github/workflows/owner-appearance-release.yml`: immutable upload/public SHA validation, then v9 activation; v8 and six1.2.1 dice unchanged.
 - `schemas/catalog-entry-v3.schema.json`: additive dice-tray imageKind.
+
+### 2026-10-23 reviewed native32 preview activation
+
+- `catalog/v9/index.json`: existing107payloads plus4native tray recipes; ten native32 preview/description metadata updates, no payload mutation.
+- `sources/dice-native-render-v1.json`: exact reviewed app32/source/run/index pin, ten package SHA/profile mappings.
+- `tools/package_workshop_previews.py --native-dice`: v9 supports six material and four tray native captures; older v6/v7/v8 modes retained.
+- `.github/workflows/workshop-previews-release.yml`: existing publisher verifies new ten public JPEGs then activatesv9.
