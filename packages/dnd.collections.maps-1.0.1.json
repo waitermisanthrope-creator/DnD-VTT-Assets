@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.collections.maps",
+  "version": "1.0.1",
+  "type": "collection",
+  "collectionCategory": "maps",
+  "members": [
+    "dnd.map.3d-castle-black-rose-v740030",
+    "dnd.map.3d-castle-v740019",
+    "dnd.map.3d-house-v740019",
+    "dnd.map.3d-stress-test-all",
+    "dnd.map.3d-stress-v740026",
+    "dnd.map.3d-tavern-v740019",
+    "dnd.map.3d-test-dungeon",
+    "dnd.map.3d-town-v740019",
+    "dnd.map.3d-village-v740019",
+    "dnd.appearance.map-surfaces"
+  ]
+}
