@@ -1,3 +1,7 @@
+## Полные графические сборники — Unity1.00.36+
+
+Семь опциональных сборников: иконки31, обои32, дайсы/3D-наборы32, лотки4, карты9, объекты1, материалы поверхностей2. Все111 исходных модов и их лицензии сохранены. [Общий контракт и проверка](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_CATEGORY_COLLECTIONS.md).
+
 # Current reviewed client — Unity1.00.34 / catalogv9,2026-10-23
 
 Existing six1.2.1 material payloads and four1.0.0 tray recipes are unchanged.34 corrects independent Abyss motion/contact selection and natural dissipating slime bounces (no periodic upward kicks or post-result body bob), increases launch height and keeps edge results visible without changing wall colliders. Reviewed native source24b2a4773e3951ea9192d9663596f26338936254/run39952385083/indexfc8ad8922b789acbde3772e3ae950968eb4b1d0f488526995f77af0483885762; all3candidate jobs pass,91actual public images/installers independently verified and visually reviewed, original APK signature retained.33 was held from the update feed after wall-occlusion review. Existing preview publisher derives ten small JPEGs from these exact34 captures and activates only matching metadata after public SHA checks. No recipe re-download is required for32→34 runtime corrections. Data compatibility with32 remains; physical phone and interactive desktop QA are separate.

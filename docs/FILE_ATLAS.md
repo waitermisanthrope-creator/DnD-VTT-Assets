@@ -169,3 +169,10 @@ Existing sources/dice-native-render-v1.json now pins reviewed34/source24b2a477/r
 ## Verified native34 delivery evidence
 
 Existing preview publisher39956772016/job120424443608 SUCCESS, catalogv9 activationd279bae0a337418f8a086cce9794b99e14bddc1a. All ten actual public JPEGs147551bytes independently downloaded and SHA/size/dimensions checked; both plain/cache-busted catalogs equal independently regenerated34 metadata.111payload records unchanged. App34 activation7ea3934398628b4ad5717086e36bb766784f5bc2 and both public feed forms10034 verified. APK original v2/v3 signature retained. Physical phone and interactive desktop QA remain owner work.
+
+## Полные сборники, клиент10036+, 23.10.2026
+
+- `packages/dnd.collections.icons-1.0.0.json`, `packages/dnd.collections.wallpapers-1.0.0.json`, `packages/dnd.collections.dice-1.0.0.json`, `packages/dnd.collections.dice-trays-1.0.0.json`, `packages/dnd.collections.maps-1.0.0.json`, `packages/dnd.collections.models-1.0.0.json`, `packages/dnd.collections.surfaces-1.0.0.json`: семь корневых групп всех111 исходных модов.
+- `sources/mod-category-collections-1.0.0.json`: точные ID состава.
+- `catalog/v9/index.json`:118 записей, исходные111 не менялись; v1–v8 сохранены.
+- Генератор/верификатор/схема находятся в Content: `tools/build_mod_collections.py`, `tools/verify_mod_collections.py`, `schemas/mod-collection-v1.schema.json`. Новые метаданные не копируют исходные арты и не меняют их права.
