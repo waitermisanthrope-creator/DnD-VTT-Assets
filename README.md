@@ -1,6 +1,6 @@
 ## Полные графические сборники — Unity1.00.36+
 
-Семь опциональных сборников: иконки31, обои32, дайсы/3D-наборы32, лотки4, карты9, объекты1, материалы поверхностей2. Все111 исходных модов и их лицензии сохранены. [Общий контракт и проверка](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_CATEGORY_COLLECTIONS.md).
+[Клиент1.00.36 опубликован](https://github.com/waitermisanthrope-creator/DnD-VTT/releases/tag/unity-v1.00.36). Семь опциональных сборников: иконки31, обои32, дайсы/3D-наборы32, лотки4, карты9, объекты1, материалы поверхностей2. Все111 исходных модов и их лицензии сохранены. [Общий контракт и проверка](https://github.com/waitermisanthrope-creator/DnD-VTT-Content/blob/main/docs/MOD_CATEGORY_COLLECTIONS.md).
 
 # Current reviewed client — Unity1.00.34 / catalogv9,2026-10-23
 
