@@ -2669,7 +2669,15 @@
       "bytes": 1478933,
       "sha256": "03c68eb45c304a62275761fa5a6b9c3c148875f9ed0a24ddca42fa8d12daa2d2",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.01-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль abyss. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб."
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль abyss. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.01-03c68eb45c30-unity-v1.00.30.jpg",
+        "bytes": 17367,
+        "sha256": "ab550cd00fe02b85c29aebbcd25b08be2d405fbc03fc9f18db6d763cdfc7c561",
+        "width": 254,
+        "height": 320,
+        "kind": "dice-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2688,7 +2696,15 @@
       "bytes": 1520098,
       "sha256": "a49397a2a94713f10877d13f2aaeb994994978d64f8eb3a0b0acf5261aa7335e",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.03-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль ice. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб."
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль ice. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.03-a49397a2a947-unity-v1.00.30.jpg",
+        "bytes": 26823,
+        "sha256": "fda41480021a371a70039cd56569efa4cc61068bc8e796af31c2da9c9d21fffb",
+        "width": 343,
+        "height": 312,
+        "kind": "dice-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2707,7 +2723,15 @@
       "bytes": 1427806,
       "sha256": "6a8f910c29b60eadbe3c7f6bd2f4fbc8a9ebd5f5c64af1aa940ea9a398b4d4d3",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.05-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль blood. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб."
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль blood. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.05-6a8f910c29b6-unity-v1.00.30.jpg",
+        "bytes": 23222,
+        "sha256": "da4ddfd5f428b125df910a885125e7d8ab72053f676ddaa9a614d69064290a90",
+        "width": 344,
+        "height": 320,
+        "kind": "dice-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2726,7 +2750,15 @@
       "bytes": 1496029,
       "sha256": "9758c037325860d6ec2c0307acf1a4baf2f16ad908dcd081b5d5352328e09efe",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.06-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль stone. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб."
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль stone. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.06-9758c0373258-unity-v1.00.30.jpg",
+        "bytes": 21634,
+        "sha256": "3fe6f348a0cc17436dc1cf59ad9010b0cdb09504c6ba82dca450f3944fa06b69",
+        "width": 335,
+        "height": 303,
+        "kind": "dice-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2745,7 +2777,15 @@
       "bytes": 1415453,
       "sha256": "f5b05d101ed34926aa70a5d5ece89548427d61e1172c4db8e62837db08576b67",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.icon.19-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль vine. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб."
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль vine. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.icon.19-f5b05d101ed3-unity-v1.00.30.jpg",
+        "bytes": 23364,
+        "sha256": "5af25e7e4519577f96a1f241014947f1d1bfe3b3ad29e8ea89c2d92ff315801b",
+        "width": 346,
+        "height": 320,
+        "kind": "dice-native-render"
+      }
     },
     {
       "schemaVersion": 1,
@@ -2764,7 +2804,15 @@
       "bytes": 1282095,
       "sha256": "7a290e99de4c3b73ba2ccd5ce0f578ec37ff884000302b9558e968d303d5fc2e",
       "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/dnd.dice.test.slime-1.2.1.json",
-      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль slime. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб."
+      "description": "Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль slime. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб. Предпросмотр — реальный рендер Unity d20 из проверенной сборки 1.00.30.",
+      "preview": {
+        "url": "https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/workshop-previews-v1/dnd.dice.test.slime-7a290e99de4c-unity-v1.00.30.jpg",
+        "bytes": 21563,
+        "sha256": "559c587b4dd67a4e6b6f68e340c6ecda2a40f4d13e8bfb7e08a7035a72de491a",
+        "width": 322,
+        "height": 292,
+        "kind": "dice-native-render"
+      }
     }
   ]
 }
