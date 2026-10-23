@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.collections.surfaces",
+  "version": "1.0.0",
+  "type": "collection",
+  "collectionCategory": "surfaces",
+  "members": [
+    "demo.appearance.amber",
+    "dnd.appearance.map-surfaces"
+  ]
+}

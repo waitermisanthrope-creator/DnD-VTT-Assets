@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "dnd.collections.dice-trays",
+  "version": "1.0.0",
+  "type": "collection",
+  "collectionCategory": "dice-trays",
+  "members": [
+    "dnd.dice.tray.spiral",
+    "dnd.dice.tray.pit",
+    "dnd.dice.tray.hexagon",
+    "dnd.dice.tray.octagon"
+  ]
+}
