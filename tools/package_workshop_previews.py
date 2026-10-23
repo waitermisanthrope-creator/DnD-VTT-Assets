@@ -20,12 +20,17 @@ if args.native_dice:
   assert len(raw)<=limit;return raw
  raw=native('dice-render-index.json',64*1024);assert hashlib.sha256(raw).hexdigest()==source['indexSha256']
  evidence=json.loads(raw);assert evidence['sourceCommit']==source['sourceCommit'] and evidence['buildRun']==source['candidateRun']
- by_name={item['name']:item for item in evidence['images']};assert len(by_name)==31
- catalog=json.loads(Path('catalog/v6/index.json').read_text());files=[]
+ by_name={item['name']:item for item in evidence['images']};assert len(by_name)==len(evidence['images']) and len(by_name)>=31
+ version=source.get('catalogVersion',6);assert version in [6,7,8]
+ catalog=json.loads(Path(f'catalog/v{version}/index.json').read_text());files=[]
  for m in catalog['packs']:
-  if m.get('imageKind')!='dice':continue
-  assert m['version']=='1.1.0' and m['sha256']==source['recipes'][m['id']]
-  name=m['id']+'.theme-d20.png';entry=by_name[name];png=native(name,4*1024*1024)
+  if m.get('imageKind')!='dice' or m['id'] not in source['recipes']:continue
+  assert m['version']==('1.2.1' if version==8 else '1.2.0' if version==7 else '1.1.0') and m['sha256']==source['recipes'][m['id']]
+  if version>=7:
+   profile=source['profiles'][m['id']];assert profile in ['abyss','ice','blood','stone','vine','slime']
+   name='test-'+profile+'-d20.png'
+  else:name=m['id']+'.theme-d20.png'
+  entry=by_name[name];png=native(name,4*1024*1024)
   assert len(png)==entry['bytes'] and hashlib.sha256(png).hexdigest()==entry['sha256']
   image=Image.open(io.BytesIO(png));assert image.format=='PNG' and image.size==(768,640)
   canvas=image.convert('RGB')
@@ -39,9 +44,9 @@ if args.native_dice:
   preview=dict(url=ROOT+filename,bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),width=canvas.width,height=canvas.height,kind='dice-native-render')
   m['preview']=preview;m['description']+=' Предпросмотр — реальный рендер Unity d20 из проверенной сборки '+source['release'].removeprefix('unity-v')+'.'
   files.append(dict(name=filename,**preview,sourceId=m['id'],sourceSha256=m['sha256'],renderSha256=entry['sha256'],nativeCropBox=box,appSourceCommit=source['sourceCommit'],buildRun=source['candidateRun'],author=m['author'],license=m['license']))
- assert len(files)==31
+ assert len(files)==(6 if version>=7 else 31)
  (args.out/'index.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
- (args.out/'preview-index-v6.json').write_text(json.dumps(dict(schemaVersion=1,previews=files),ensure_ascii=False,indent=2)+'\n')
+ (args.out/f'preview-index-v{version}.json').write_text(json.dumps(dict(schemaVersion=1,previews=files),ensure_ascii=False,indent=2)+'\n')
  print('NATIVE_DICE_PREVIEWS_READY',len(files),sum(f['bytes'] for f in files))
  sys.exit(0)
 catalog=json.loads((args.fixtures/'catalog/v5/index.json').read_text() if args.fixtures else fetch('https://raw.githubusercontent.com/waitermisanthrope-creator/DnD-VTT-Assets/main/catalog/v5/index.json',8*1024*1024))

@@ -1,3 +1,7 @@
+# Six-theme test catalogs —2026-10-23
+
+Unity1.00.30 uses catalog/v8: six1.2.1 test profiles, numbered common atlas, organic movement/ice glide/blood/dust/roots/jelly effects implemented in client. Requires both app update and workshop pack update. Choose via3D table → Мои наборы. v6/1.1 retained for28; v7/1.2.0 belongs to29 candidate rejected in visual review (mirrored UV digits), never activated in-app.30 candidate39884231802 and all3jobs passed;85public native PNGs and both installers SHA verified, full6d20/all42forms/post-result frames reviewed. APK original v2/v3 signature verified. Feed activation and native preview publication requested after exact index approval. No exact sculpt/full soft-body claim. Source/data are public; native model thumbnails must come from exact reviewed app renders, not texture sheets.
+
 # Current client catalogs —2026-10-22
 
 Unity1.00.28+ uses **catalog/v6/index.json**: optional1.1 UV-textured dice with independent installed-set selection and real native Unity previews. v5 remains for1.00.24/25, v4 for1.00.23; all old payloads retained. Material1.1 data is compatible with26+, but28 fixes world numeral depth, fit, contrast and overexposed tint. No exact31 sculpt claim:01/05 have reference-authored face art, other29 use tinted engraved material.

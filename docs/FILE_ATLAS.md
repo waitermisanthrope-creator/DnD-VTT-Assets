@@ -1,3 +1,9 @@
+## Corrected trial catalog —2026-10-23
+
+- catalog/v8/index.json — six1.2.1 updates, requires10030; v7 remains failed-visual29 trial, v6 remains28.
+- Existing source-sheet/faces producer mirrors corner U to match corrected exterior frame; original source art retained.
+- Existing native preview producer now supports6-set v8 with exact app render-index pin; final descriptor awaits reviewed30 renders.
+
 ## Test-six source additions —2026-10-23
 
 - sources/dice-materials/test-six-v1/source-sheet.png — reference-authored12 material regions; not3D preview.

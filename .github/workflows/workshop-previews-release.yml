@@ -29,7 +29,7 @@ jobs:
           known={a['name'] for a in json.loads(subprocess.check_output(['gh','release','view','workshop-previews-v1','--json','assets']))['assets']}
           for path in sorted(folder.glob('*')):
               if path.name not in known:subprocess.run(['gh','release','upload','workshop-previews-v1',str(path)],check=True)
-          index=folder/('preview-index-v6.json' if (folder/'preview-index-v6.json').exists() else 'preview-index-v5.json')
+          index=next(folder/f'preview-index-v{v}.json' for v in [8,7,6,5] if (folder/f'preview-index-v{v}.json').exists())
           for item in json.loads(index.read_text())['previews']:
               data=urllib.request.urlopen(item['url'],timeout=90).read()
               assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
@@ -37,7 +37,7 @@ jobs:
           PY
       - name: Activate matching catalog after verification (preserve older clients)
         run: |
-          if [[ -f dist/workshop-previews-v1/preview-index-v6.json ]]; then catalog_version=v6; else catalog_version=v5; fi
+          if [[ -f dist/workshop-previews-v1/preview-index-v8.json ]]; then catalog_version=v8; elif [[ -f dist/workshop-previews-v1/preview-index-v7.json ]]; then catalog_version=v7; elif [[ -f dist/workshop-previews-v1/preview-index-v6.json ]]; then catalog_version=v6; else catalog_version=v5; fi
           mkdir -p "catalog/$catalog_version"
           cp dist/workshop-previews-v1/index.json "catalog/$catalog_version/index.json"
           git config user.name 'github-actions[bot]'
