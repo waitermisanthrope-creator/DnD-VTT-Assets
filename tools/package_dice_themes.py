@@ -12,7 +12,7 @@ if '--experiments' in sys.argv:
  sheet=Image.open(source/'source-sheet.png').convert('RGB')
  faces=json.loads((source/'faces.json').read_text())
  output=root/'dist/owner-appearance-v1';output.mkdir(parents=True,exist_ok=True)
- catalog=json.loads((root/'catalog/v6/index.json').read_text())
+ catalog=json.loads((root/'catalog/v7/index.json').read_text())
  rows=[('01','Бездна · живая', 'tentacles','abyss',0,'#382054','#AC55EE',.23,.06),('03','Лёд · скольжение','crystal','ice',1,'#17426F','#95E7FF',.08,.035),('05','Кровавый · капли','fangs','blood',2,'#491C25','#C1B1AE',.13,.045),('06','Камень · пыль','spikes','stone',3,'#393B3B','#A9ACAA',.04,.035),('19','Лоза · корни','vines','vine',4,'#29351A','#B0B96A',.12,.045),('slime','Слайм · живое желе','rounded','slime',5,'#135127','#7CDE45',.025,.025)]
  fontpath='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
  for suffix,name,shape,behavior,cell,body,trim,length,width in rows:
@@ -24,7 +24,7 @@ if '--experiments' in sys.argv:
    n=spec['sides'];mode=spec.get('mode','');offset=60 if mode=='tens' else 70 if mode=='units' else {4:0,6:4,8:10,10:18,12:28,20:40}[n]
    for face in spec['faces']:
     image=faceart.copy();draw=ImageDraw.Draw(image)
-    polygon=[(round(c['uv'][0]*192),round((1-c['uv'][1])*192)) for c in face['corners']]
+    polygon=[(round((1-c['uv'][0])*192),round((1-c['uv'][1])*192)) for c in face['corners']]
     inset=[(96+(x-96)*.84,96+(y-96)*.84) for x,y in polygon]
     draw.line(inset+[inset[0]],fill=trim,width=2)
     def digit(text,x,y,size,angle=0):
@@ -45,12 +45,12 @@ if '--experiments' in sys.argv:
   package_id='dnd.dice.icon.'+suffix if suffix!='slime' else 'dnd.dice.test.slime'
   image=dict(width=1920,height=1728,sha256=hashlib.sha256(png).hexdigest(),pngBase64=base64.b64encode(png).decode())
   theme=dict(id=package_id+'.theme',name=name,iconPackage='dnd.appearance.icon.'+(suffix if suffix!='slime' else 'default'),shape=shape,body=body,trim=trim,length=length,width=width,sides=[4,6,8,10,12,20,100],albedo=image,faceTile=0,trimTile=2 if behavior=='abyss' else 3,tintTexture=False,numberedAtlas=True,behavior=behavior)
-  payload=dict(schemaVersion=1,id=package_id,version='1.2.0',type='appearance',diceThemes=[theme]);data=(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n').encode();assert len(data)<5*1024*1024
-  filename=package_id+'-1.2.0.json';(output/filename).write_bytes(data)
-  entry=dict(schemaVersion=1,id=package_id,name='3D Дайсы · '+name,version='1.2.0',author='waitermisanthrope-creator',license='Author-authorized DnD-VTT distribution',type='appearance',imageKind='dice',minClientVersionCode=10029,format='json',platform='any',unityVersion='',dependencies=[],bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),url='https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/'+filename,description='Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль '+behavior+'. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.29. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб.')
+  payload=dict(schemaVersion=1,id=package_id,version='1.2.1',type='appearance',diceThemes=[theme]);data=(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n').encode();assert len(data)<5*1024*1024
+  filename=package_id+'-1.2.1.json';(output/filename).write_bytes(data)
+  entry=dict(schemaVersion=1,id=package_id,name='3D Дайсы · '+name,version='1.2.1',author='waitermisanthrope-creator',license='Author-authorized DnD-VTT distribution',type='appearance',imageKind='dice',minClientVersionCode=10030,format='json',platform='any',unityVersion='',dependencies=[],bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),url='https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/'+filename,description='Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль '+behavior+'. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.30. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб.')
   catalog['packs']=[p for p in catalog['packs'] if p['id']!=package_id]+[entry]
   print(package_id,len(data),image['sha256'])
- catalog['catalogId']='dnd-vtt-assets-v7';(output/'index-v7.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+ catalog['catalogId']='dnd-vtt-assets-v8';(output/'index-v8.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
  print('EXPERIMENTAL_SIX_DICE_PASS',6)
  sys.exit(0)
 # New material-bearing payloads are immutable Release assets; never overwrite v5 recipes.

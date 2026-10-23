@@ -40,7 +40,7 @@ jobs:
           python - <<'PYCODE'
           import json,hashlib,urllib.request
           from pathlib import Path
-          catalog=json.loads(Path('dist/owner-appearance-v1/index-v7.json').read_text())
+          catalog=json.loads(Path('dist/owner-appearance-v1/index-v8.json').read_text())
           for p in catalog['packs']:
               if '/owner-appearance-v1/' not in p['url']:continue
               data=urllib.request.urlopen(p['url'],timeout=90).read()
@@ -49,10 +49,10 @@ jobs:
           PYCODE
       - name: Activate new-client catalog after public verification
         run: |
-          mkdir -p catalog/v7
-          cp dist/owner-appearance-v1/index-v7.json catalog/v7/index.json
+          mkdir -p catalog/v8
+          cp dist/owner-appearance-v1/index-v8.json catalog/v8/index.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add catalog/v7/index.json
-          git commit -m 'Activate byte-verified experimental six dice catalog v7'
+          git add catalog/v8/index.json
+          git commit -m 'Activate byte-verified experimental six dice catalog v8'
           git push origin HEAD:main
