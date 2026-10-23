@@ -58,3 +58,7 @@ Dice previews:31 real-generator geometry schematics (220,272 bytes total), added
 Current catalogv9 adds four tiny native tray recipes (spiral tower, pit tower, hexagon, octagon) while preserving all107existing payloads. Download then select on the dice screen with «Лоток / башня». Existing six1.2.1 sets use the new app's compliant every-vertex Abyss arms and bouncing slime; up to20physical bodies concurrently, unlimited total request streaming. Explicit opt-in phone shake requires actual accelerometer hardware. Native32 previews are pinned to reviewed app evidence via the same preview pipeline; real phone sensitivity/performance remains owner QA. See docs/DICE_THEMES.md. Beta remains free.
 
 Delivery confirmed: app1.00.32 feed active and both public installers SHA/signature/upgrade-gated; ten actual public native32 previews147231bytes independently verified. Existing preview run39941062363 SUCCESS, catalog activation8464fd7. Physical phone sensitivity/performance still requires owner QA.
+
+## Verified native34 delivery evidence
+
+Existing preview publisher39956772016/job120424443608 SUCCESS, catalogv9 activationd279bae0a337418f8a086cce9794b99e14bddc1a. All ten actual public JPEGs147551bytes independently downloaded and SHA/size/dimensions checked; both plain/cache-busted catalogs equal independently regenerated34 metadata.111payload records unchanged. App34 activation7ea3934398628b4ad5717086e36bb766784f5bc2 and both public feed forms10034 verified. APK original v2/v3 signature retained. Physical phone and interactive desktop QA remain owner work.

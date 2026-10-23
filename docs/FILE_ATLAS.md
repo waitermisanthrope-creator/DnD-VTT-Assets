@@ -165,3 +165,7 @@ The31 recipes total15,143 bytes; original icon dependencies and v4 remain unchan
 ### 2026-10-23 reviewed native34 preview pin
 
 Existing sources/dice-native-render-v1.json now pins reviewed34/source24b2a477/run39952385083/indexfc8ad8922b789acbde3772e3ae950968eb4b1d0f488526995f77af0483885762. Existing preview publisher derives ten new immutable JPEGs and verifies public bytes before catalogv9 metadata activation. Six1.2.1 materials/four1.0.0 tray payloads, all existing IDs and old native32 JPEGs remain unchanged. README/AGENTS/docs/DICE_THEMES.md identify current34 correction and device-QA boundary. No new producer or file format.
+
+## Verified native34 delivery evidence
+
+Existing preview publisher39956772016/job120424443608 SUCCESS, catalogv9 activationd279bae0a337418f8a086cce9794b99e14bddc1a. All ten actual public JPEGs147551bytes independently downloaded and SHA/size/dimensions checked; both plain/cache-busted catalogs equal independently regenerated34 metadata.111payload records unchanged. App34 activation7ea3934398628b4ad5717086e36bb766784f5bc2 and both public feed forms10034 verified. APK original v2/v3 signature retained. Physical phone and interactive desktop QA remain owner work.
