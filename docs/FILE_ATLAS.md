@@ -1,3 +1,7 @@
+## Verified six-theme delivery
+
+Current catalogv8 includes six1.2.1 packs for Unity1.00.30 and six real native previews, published39886887017 and independently verified. sources/dice-native-render-v1.json pins app30/source da5a40354c6854ebf57b6f35f823080d9fd42b47/index22bd94b490c5dfd431af6914a57ecb2ccb0ead9201bab810c5dc2450040f33db. v7 trial29 and v6 stable28 unchanged. Details docs/DICE_THEMES.md.
+
 ## Corrected trial catalog —2026-10-23
 
 - catalog/v8/index.json — six1.2.1 updates, requires10030; v7 remains failed-visual29 trial, v6 remains28.
