@@ -4,6 +4,55 @@ No source image is copied into the APK. Keep v4 unchanged for pre-generator clie
 import hashlib,json,base64,sys,struct
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
+# Six explicit test sets use a shared numbered atlas per set, never mutate v6/1.1 payloads.
+if '--experiments' in sys.argv:
+ from PIL import Image,ImageDraw,ImageFont
+ import math
+ source=root/'sources/dice-materials/test-six-v1'
+ sheet=Image.open(source/'source-sheet.png').convert('RGB')
+ faces=json.loads((source/'faces.json').read_text())
+ output=root/'dist/owner-appearance-v1';output.mkdir(parents=True,exist_ok=True)
+ catalog=json.loads((root/'catalog/v6/index.json').read_text())
+ rows=[('01','Бездна · живая', 'tentacles','abyss',0,'#382054','#AC55EE',.23,.06),('03','Лёд · скольжение','crystal','ice',1,'#17426F','#95E7FF',.08,.035),('05','Кровавый · капли','fangs','blood',2,'#491C25','#C1B1AE',.13,.045),('06','Камень · пыль','spikes','stone',3,'#393B3B','#A9ACAA',.04,.035),('19','Лоза · корни','vines','vine',4,'#29351A','#B0B96A',.12,.045),('slime','Слайм · живое желе','rounded','slime',5,'#135127','#7CDE45',.025,.025)]
+ fontpath='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
+ for suffix,name,shape,behavior,cell,body,trim,length,width in rows:
+  col=(cell%2)*2;row=cell//2
+  def tile(c):return sheet.crop((c*256,row*256,(c+1)*256,(row+1)*256)).resize((192,192),Image.Resampling.LANCZOS)
+  faceart=tile(col);detail=tile(col+1);atlas=Image.new('RGB',(1920,1728))
+  for index in range(90):atlas.paste(detail,((index%10)*192,(index//10)*192))
+  for spec in faces+[{**next(x for x in faces if x['sides']==10),'mode':mode} for mode in ['tens','units']]:
+   n=spec['sides'];mode=spec.get('mode','');offset=60 if mode=='tens' else 70 if mode=='units' else {4:0,6:4,8:10,10:18,12:28,20:40}[n]
+   for face in spec['faces']:
+    image=faceart.copy();draw=ImageDraw.Draw(image)
+    polygon=[(round(c['uv'][0]*192),round((1-c['uv'][1])*192)) for c in face['corners']]
+    inset=[(96+(x-96)*.84,96+(y-96)*.84) for x,y in polygon]
+    draw.line(inset+[inset[0]],fill=trim,width=2)
+    def digit(text,x,y,size,angle=0):
+     ink=Image.new('RGBA',(160,160));d=ImageDraw.Draw(ink);font=ImageFont.truetype(fontpath,size)
+     d.text((80,80),str(text),font=font,anchor='mm',fill=(255,239,205),stroke_width=2,stroke_fill=(14,9,15))
+     if angle:ink=ink.rotate(angle,Image.Resampling.BICUBIC)
+     image.paste(ink,(round(x-80),round(y-80)),ink)
+    value=face['value']
+    if n==4:
+     for c,(x,y) in zip(face['corners'],polygon):digit(c['opposite'],96+(x-96)*.50,96+(y-96)*.50,27,math.degrees(math.atan2(96-y,x-96))-90)
+    else:
+     value=(value%10)*10 if mode=='tens' else value%10 if mode=='units' else value
+     text=f'{value:02}' if mode=='tens' else str(value)+('.' if value in [6,9] else '')
+     digit(text,96,99,48 if len(text)==1 else 39)
+    index=offset+face['value']-1;atlas.paste(image,((index%10)*192,(index//10)*192))
+  import io
+  stream=io.BytesIO();atlas.save(stream,format='PNG',optimize=True);png=stream.getvalue();assert len(png)<4*1024*1024
+  package_id='dnd.dice.icon.'+suffix if suffix!='slime' else 'dnd.dice.test.slime'
+  image=dict(width=1920,height=1728,sha256=hashlib.sha256(png).hexdigest(),pngBase64=base64.b64encode(png).decode())
+  theme=dict(id=package_id+'.theme',name=name,iconPackage='dnd.appearance.icon.'+(suffix if suffix!='slime' else 'default'),shape=shape,body=body,trim=trim,length=length,width=width,sides=[4,6,8,10,12,20,100],albedo=image,faceTile=0,trimTile=2 if behavior=='abyss' else 3,tintTexture=False,numberedAtlas=True,behavior=behavior)
+  payload=dict(schemaVersion=1,id=package_id,version='1.2.0',type='appearance',diceThemes=[theme]);data=(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n').encode();assert len(data)<5*1024*1024
+  filename=package_id+'-1.2.0.json';(output/filename).write_bytes(data)
+  entry=dict(schemaVersion=1,id=package_id,name='3D Дайсы · '+name,version='1.2.0',author='waitermisanthrope-creator',license='Author-authorized DnD-VTT distribution',type='appearance',imageKind='dice',minClientVersionCode=10029,format='json',platform='any',unityVersion='',dependencies=[],bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),url='https://github.com/waitermisanthrope-creator/DnD-VTT-Assets/releases/download/owner-appearance-v1/'+filename,description='Тестовый полный комплект: d4/d6/d8/d10/d12/d20/d100. Общий нумерованный атлас; профиль '+behavior+'. Выбор: 3D-стол → Мои наборы. Требуется Unity1.00.29. Художественная адаптация, не точная скульптурная копия и не сертифицированный равномерный куб.')
+  catalog['packs']=[p for p in catalog['packs'] if p['id']!=package_id]+[entry]
+  print(package_id,len(data),image['sha256'])
+ catalog['catalogId']='dnd-vtt-assets-v7';(output/'index-v7.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+ print('EXPERIMENTAL_SIX_DICE_PASS',6)
+ sys.exit(0)
 # New material-bearing payloads are immutable Release assets; never overwrite v5 recipes.
 if '--materials' in sys.argv:
  output=root/'dist/owner-appearance-v1';output.mkdir(parents=True,exist_ok=True)

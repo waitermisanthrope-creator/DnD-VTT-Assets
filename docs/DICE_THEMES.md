@@ -1,3 +1,9 @@
+# Six-theme test revision1.2.0 — Unity1.00.29+
+
+Owner requests only Abyss/ice/blood/stone/vine/slime for this stage. New catalogv7 preserves106 existing entries and adds slime; five existing IDs update to1.2.0. v6 and all immutable1.0/1.1 payloads remain untouched. Existing owner appearance pipeline publishes exact new1.2 Release files before v7 activation. Each set uses one1920x1728 numbered atlas (10x9 tiles,192px each); UV regions cover d4/d6/d8/d10/d12/d20, percentile tens and units. Digit placement comes from actual DiceGeometry face metadata. Last row contains decoration material. Data-driven behavior profiles are allowlisted in client, no downloadable code.
+
+source-sheet.png is AI-assisted artwork generated with owner's01/05 reference permission, not a rendered3D preview. Provenance beside source. Artwork remains an adaptation, not exact sculptural replica. Test client implements organic detail motion, ice friction, blood/dust marks, post-result vine roots and jelly squash/bounce. No true soft-body solver. Result remains fixed during post-result effects. Native/device tests and publication results must be recorded separately; source generation alone is not a release.
+
 # Icon-linked procedural dice, generator v1 (Unity 1.00.24+)
 
 31 independently downloadable sets correspond to all 30 author dice icons plus

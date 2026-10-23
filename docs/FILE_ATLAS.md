@@ -1,3 +1,11 @@
+## Test-six source additions —2026-10-23
+
+- sources/dice-materials/test-six-v1/source-sheet.png — reference-authored12 material regions; not3D preview.
+- sources/dice-materials/test-six-v1/faces.json — actual DiceGeometry face values/corner UV/opposite labels.
+- sources/dice-materials/test-six-v1/provenance.json — art origin and distribution scope.
+- tools/package_dice_themes.py --experiments — existing producer, immutable1.2 packages and catalogv7.
+- catalog/v7/index.json — activated only after public payload hash verification by existing pipeline.
+
 # Атлас всех файлов DnD-VTT-Assets — для ИИ и разработчиков
 
 **Назначение:** точная карта каждого Git-отслеживаемого файла этого репозитория на момент 22.10.2026, + новые служебные файлы из текущего комплекта документации. Снимок построен из рекурсивного Git-дерева ветки `main`; для уже подготовленного `docs/FILE_ATLAS.md` размер указан `—` до коммита. **Всего записей: 45**. Файлы в GitHub Releases, сгенерированные бинарники и отсутствующие в Git файлы сюда не входят. При новых коммитах проверяй фактическое дерево и актуализируй атлас.
