@@ -178,3 +178,7 @@ Existing preview publisher39956772016/job120424443608 SUCCESS, catalogv9 activat
 - Генератор/верификатор/схема находятся в Content: `tools/build_mod_collections.py`, `tools/verify_mod_collections.py`, `schemas/mod-collection-v1.schema.json`. Новые метаданные не копируют исходные арты и не меняют их права.
 
 `packages/dnd.collections.maps-1.0.1.json`: актуальная группа9 карт с обязательным `dnd.appearance.map-surfaces`;1.0.0 сохранена неизменной как история. Общие зависимости пропускаются при последующей установке сборника материалов.
+
+## Лента и рейтинг, 23.10.2026
+
+Живой каталог содержит опубликованные `publishedAt`/`updatedAt`, восстановленные по полной git-истории; payload/ID/SHA/версии не менялись. Схема каталога документирует UTC date-time поля. Правила: Content/docs/WORKSHOP_DATES_AND_HEARTS.md; сердечки хранятся отдельно в серверной БД, рейтинг не задаётся JSON.
